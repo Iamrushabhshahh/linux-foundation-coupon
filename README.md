@@ -4,6 +4,13 @@
 
 Prices below are verified directly against [training.linuxfoundation.org](https://training.linuxfoundation.org/) as of **August 17, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)** — this repo is the quick-reference version.
 
+## 🔴 Live now: beats RUSHABH30 while it lasts
+
+> [!IMPORTANT]
+> **35 Years of Linux anniversary sale** — 35% off sitewide with code `TUX35`, ends **August 18, 2026, 23:59 UTC**. Doesn't stack with `RUSHABH30` — use whichever is bigger. Excludes THRIVE-ONE subscriptions, the Yocto Project Super Practical Online Course (LFD461-JP), and FinOps courses/certifications; `RUSHABH30` stays the better pick for those.
+
+Sale codes don't stack with `RUSHABH30` — the rule is always "use whichever discount is bigger, right now." This section only shows a sale while it's genuinely running; check the date above before assuming it still applies.
+
 ## Who's giving this out, and why
 
 I'm [Rushabh Shah](https://rushabhshah.dev) — a DevOps Engineer, [Docker Captain](https://www.docker.com/community/captains/), and [Grafana Champion](https://grafana.com/community/champions/). `RUSHABH30` is an official Linux Foundation Education affiliate partner code, issued directly to me — not scraped from another site or resold. I earn a small commission if you use it; the 30% you save doesn't depend on that, and it costs you nothing extra either way.
@@ -45,6 +52,22 @@ List prices are as published by the Linux Foundation at the time of verification
 ## Why an evergreen code instead of a flash sale
 
 Search "Linux Foundation coupon" and you'll find dozens of limited-time codes — anniversary sales, Cyber Monday, birthday promos — advertising 40–75% off. Almost all of them expire within days and get replaced by the next one; if you bookmark one of those pages, there's a good chance the code on it doesn't work by the time you're actually ready to buy. `RUSHABH30` isn't trying to win on the biggest number — it's the one still working when you come back next month. If you land here during a genuine flash sale that beats 30%, take it; just check the exclusions (THRIVE subscriptions and bundles are usually carved out of the biggest sales) and confirm the expiry date before you commit.
+
+## Sale archive
+
+A running, honest record of official Linux Foundation sitewide sales — kept even after they expire, so you can see the actual pattern instead of guessing. `RUSHABH30` is the floor every other day of the year.
+
+| Sale | Discount | Window | Status |
+| --- | --- | --- | --- |
+| 35 Years of Linux anniversary | 35% sitewide | Aug 11–18, 2026 | See "Live now" above |
+| Mega May 2026 | 50% (up to 65% on THRIVE bundles) | May 12–24, 2026 | Expired |
+| Kubernetes Birthday | ~45% on Kubernetes certs | June 2026 | Expired |
+| Tech Talent sale | ~48% | Ended June 14, 2026 | Expired |
+| Lunar New Year | ~47% | Early 2026 | Expired |
+| Cyber Monday 2025 | ~65% sitewide | Nov 2025 | Expired |
+| September 2025 flash sale | Up to 75% on select bundles | Sept 2025, short window | Expired |
+
+Every row here is one I've personally verified against the official terms at the time — not copied from another aggregator. If a code above is expired and someone's still advertising it elsewhere, it doesn't work; use `RUSHABH30` instead.
 
 ## Bundles
 
