@@ -1,4 +1,4 @@
-# Linux Foundation & CNCF Certification Discount Code — RUSHABH30
+# Linux Foundation & CNCF Certification Discount Code (Updated August 2026) — RUSHABH30
 
 **Code:** `RUSHABH30` — **30% off every current Linux Foundation and CNCF certification, exam bundle, and course.** No minimum spend, no expiry date.
 
