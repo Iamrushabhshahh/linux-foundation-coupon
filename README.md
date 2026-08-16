@@ -5,26 +5,36 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/Iamrushabhshahh/linux-foundation-coupon?style=flat-square)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/commits/main)
 
+<!-- SALE PREP SLOT: when the current sale ends, delete this whole section (the
+     img link, the callout, and the paragraph after it), add a row for it in the
+     "Sale archive" table below, and drop the next sale's block back in here when
+     the next heads-up email arrives. Keep it above the evergreen RUSHABH30 block. -->
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
+
+[![Linux Foundation 35 Years of Linux anniversary sale: 35% off sitewide with code TUX35, ends August 18, 2026](assets/linux-foundation-tux35-35-percent-off-anniversary-sale.webp)](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-2026-promo%2F)
+
+> [!IMPORTANT]
+> **35 Years of Linux anniversary sale:** 35% off sitewide, ends **August 18, 2026, 23:59 UTC**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
+>
+> ```
+> TUX35
+> ```
+>
+> [**Use TUX35 before it expires →**](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-2026-promo%2F)
+>
+> Doesn't stack with `RUSHABH30`, so use whichever is bigger. Excludes THRIVE-ONE subscriptions, the Yocto Project Super Practical Online Course (LFD461-JP), and FinOps courses/certifications, where `RUSHABH30` is still the better pick.
+
+Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+
+## No sale running? Use the everyday code
+
 **30% off every current Linux Foundation and CNCF certification, exam bundle, and course.** No minimum spend, no expiry date. Copy the code below and paste it at checkout:
 
 ```
 RUSHABH30
 ```
 
-Prices below are verified directly against [training.linuxfoundation.org](https://training.linuxfoundation.org/) as of **August 17, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
-
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
-
-> [!IMPORTANT]
-> **35 Years of Linux anniversary sale:** 35% off sitewide, ends **August 18, 2026, 23:59 UTC**.
->
-> ```
-> TUX35
-> ```
->
-> Doesn't stack with `RUSHABH30`, so use whichever is bigger. Excludes THRIVE-ONE subscriptions, the Yocto Project Super Practical Online Course (LFD461-JP), and FinOps courses/certifications, where `RUSHABH30` is still the better pick.
-
-Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+Prices below are verified directly against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) as of **August 17, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -32,7 +42,7 @@ I'm [Rushabh Shah](https://rushabhshah.dev), a DevOps Engineer, [Docker Captain]
 
 ## How to redeem
 
-1. Go to [training.linuxfoundation.org](https://training.linuxfoundation.org/) and add any certification, exam bundle, or course to your cart.
+1. Go to [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) and add any certification, exam bundle, or course to your cart.
 2. At checkout, enter `RUSHABH30` in the coupon code field.
 3. The total drops 30%.
 
@@ -62,7 +72,7 @@ Certification purchases come with **12 months to schedule and sit the exam**, so
 | **Kubestronaut bundle** (KCNA + KCSA + CKA + CKAD + CKS) | Bundle | $1,645 | ~$1,151 |
 | **Golden Kubestronaut bundle** (all 16 certifications above) | Bundle | $4,229 | ~$2,960 |
 
-List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://training.linuxfoundation.org/certification-catalog/) before buying in case they've changed since.
+List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Fcertification-catalog%2F) before buying in case they've changed since.
 
 ## Why an evergreen code instead of a flash sale
 
