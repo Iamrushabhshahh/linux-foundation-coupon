@@ -4,6 +4,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/network/members)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Last commit](https://img.shields.io/github/last-commit/Iamrushabhshahh/linux-foundation-coupon?style=flat-square)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/commits/main)
+![Views](https://komarev.com/ghpvc/?username=Iamrushabhshahh&label=repo+views&style=flat-square&color=f97316&repo=linux-foundation-coupon&base=1000)
 
 <!-- SALE PREP SLOT: when the current sale ends, delete this whole section (the
      img link, the callout, and the paragraph after it), add a row for it in the
