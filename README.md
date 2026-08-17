@@ -72,8 +72,30 @@ Certification purchases come with **12 months to schedule and sit the exam**, so
 | CNPA: Certified Cloud Native Platform Engineering Associate | Associate | $250 | ~$175 |
 | **Kubestronaut bundle** (KCNA + KCSA + CKA + CKAD + CKS) | Bundle | $1,645 | ~$1,151 |
 | **Golden Kubestronaut bundle** (all 16 certifications above) | Bundle | $4,229 | ~$2,960 |
+| **Kubestronaut &rarr; Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 |
 
 List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Fcertification-catalog%2F) before buying in case they've changed since.
+
+## Which certification matches your role
+
+If you're not sure which one to start with, this is roughly how they map to actual jobs:
+
+| Certification | Who it's actually for |
+| --- | --- |
+| CKA | Kubernetes administrators and platform engineers running clusters day to day |
+| CKAD | Application developers deploying and debugging workloads on Kubernetes |
+| CKS | Security engineers hardening Kubernetes clusters (requires an active CKA) |
+| KCNA | Newcomers building foundational Kubernetes and cloud-native knowledge, often before a job search |
+| LFCS | General Linux system administrators |
+| CNPE / CNPA | Platform engineering teams building internal developer platforms |
+| PCA | SRE and observability engineers working with Prometheus |
+| ICA | Service-mesh and networking engineers working with Istio |
+| CCA | Networking and security engineers working with Cilium and eBPF |
+| CAPA | GitOps and continuous-delivery engineers using Argo |
+| CGOA | Platform engineers adopting GitOps workflows broadly |
+| CBA | Engineers building internal developer portals with Backstage |
+| OTCA | Observability engineers instrumenting systems with OpenTelemetry |
+| KCA | Policy and admission-control engineers using Kyverno |
 
 ## Why an evergreen code instead of a flash sale
 
