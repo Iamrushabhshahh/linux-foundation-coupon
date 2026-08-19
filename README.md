@@ -6,28 +6,12 @@
 [![Last commit](https://img.shields.io/github/last-commit/Iamrushabhshahh/linux-foundation-coupon?style=flat-square)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/commits/main)
 ![Views](https://komarev.com/ghpvc/?username=Iamrushabhshahh&label=repo+views&style=flat-square&color=f97316&repo=linux-foundation-coupon&base=1000)
 
-<!-- SALE PREP SLOT: when the current sale ends, delete this whole section (the
-     img link, the callout, and the paragraph after it), add a row for it in the
-     "Sale archive" table below, and drop the next sale's block back in here when
-     the next heads-up email arrives. Keep it above the evergreen RUSHABH30 block. -->
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
+<!-- SALE PREP SLOT: when the next sale gets announced, drop its block back in
+     here (the img link, the callout, and a lead-in paragraph), above the evergreen
+     RUSHABH30 block. When it ends, delete the section and add a row for it in the
+     "Sale archive" table below. -->
 
-[![Linux Foundation 35 Years of Linux anniversary sale: 35% off sitewide with code TUX35, ends August 18, 2026](assets/linux-foundation-tux35-35-percent-off-anniversary-sale.webp)](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-2026-promo%2F)
-
-> [!IMPORTANT]
-> **35 Years of Linux anniversary sale:** 35% off sitewide, ends **August 18, 2026, 23:59 UTC**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
->
-> ```
-> TUX35
-> ```
->
-> [**Use TUX35 before it expires →**](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-2026-promo%2F)
->
-> Doesn't stack with `RUSHABH30`, so use whichever is bigger. Excludes THRIVE-ONE subscriptions, the Yocto Project Super Practical Online Course (LFD461-JP), and FinOps courses/certifications, where `RUSHABH30` is still the better pick.
-
-Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
-
-## No sale running? Use the everyday code
+## Use the everyday code
 
 **30% off every current Linux Foundation and CNCF certification, exam bundle, and course.** No minimum spend, no expiry date. Copy the code below and paste it at checkout:
 
@@ -107,7 +91,7 @@ A running, honest record of official Linux Foundation sitewide sales. I keep the
 
 | Sale | Discount | Window | Status |
 | --- | --- | --- | --- |
-| 35 Years of Linux anniversary | 35% sitewide | Aug 11-18, 2026 | See "Live now" above |
+| 35 Years of Linux anniversary | 35% sitewide | Aug 11-18, 2026 | Expired |
 | Mega May 2026 | 50% (up to 65% on THRIVE bundles) | May 12-24, 2026 | Expired |
 | Kubernetes Birthday | ~45% on Kubernetes certs | June 2026 | Expired |
 | Tech Talent sale | ~48% | Ended June 14, 2026 | Expired |
