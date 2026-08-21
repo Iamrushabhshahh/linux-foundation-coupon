@@ -19,7 +19,7 @@
 RUSHABH30
 ```
 
-Prices below are verified directly against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) as of **August 20, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
+Prices below are verified directly against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) as of **August 21, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -33,7 +33,7 @@ I'm [Rushabh Shah](https://rushabhshah.dev), a DevOps Engineer, [Docker Captain]
 
 Certification purchases come with **12 months to schedule and sit the exam**, so buying now and scheduling once you're actually ready is completely normal. It's what most people do.
 
-## Pricing (verified 2026-08-20)
+## Pricing (verified 2026-08-21)
 
 | Certification | Tier | List price | With `RUSHABH30` |
 | --- | --- | --- | --- |
