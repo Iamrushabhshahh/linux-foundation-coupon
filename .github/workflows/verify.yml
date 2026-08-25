@@ -33,8 +33,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Authored as me rather than github-actions[bot]. The check runs on my
+          # behalf and the README's "verified" claim is mine to stand behind, so
+          # the commit log should say so. The email must be one attached to the
+          # GitHub account or the commits show up as an unlinked stranger.
+          git config user.name "Iamrushabhshahh"
+          git config user.email "rushabhshah842@gmail.com"
           git add README.md
           if git diff --cached --quiet; then
             echo "Nothing to update."
