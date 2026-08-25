@@ -1,4 +1,4 @@
-# RUSHABH30: 30% Off Every Linux Foundation & CNCF Certification (Updated August 2026)
+# Linux Foundation Coupon Codes (Updated August 2026): 30% Off Every CNCF Certification With RUSHABH30
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/network/members)
