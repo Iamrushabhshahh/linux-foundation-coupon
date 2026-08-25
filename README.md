@@ -6,12 +6,38 @@
 [![Last commit](https://img.shields.io/github/last-commit/Iamrushabhshahh/linux-foundation-coupon?style=flat-square)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/commits/main)
 ![Views](https://komarev.com/ghpvc/?username=Iamrushabhshahh&label=repo+views&style=flat-square&color=f97316&repo=linux-foundation-coupon&base=1000)
 
-<!-- SALE PREP SLOT: when the next sale gets announced, drop its block back in
-     here (the img link, the callout, and a lead-in paragraph), above the evergreen
-     RUSHABH30 block. When it ends, delete the section and add a row for it in the
-     "Sale archive" table below. -->
+<!-- SALE PREP SLOT: when the current sale ends, delete this whole section (the
+     img link, the callout, and the paragraph after it), add a row for it in the
+     "Sale archive" table below, and drop the next sale's block back in here when
+     the next heads-up email arrives. Keep it above the evergreen RUSHABH30 block. -->
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
 
-## Use the everyday code
+[![Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 27, 2026](assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp)](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F)
+
+> [!IMPORTANT]
+> **End-of-Season Flash Sale:** up to 40% off, 3 days only, ends **August 27, 2026**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
+>
+> 35% off courses & certifications:
+>
+> ```
+> AUG26F35
+> ```
+>
+> 40% off bundles & instructor-led training:
+>
+> ```
+> AUG26F40
+> ```
+>
+> [**Use them before they expire →**](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F)
+>
+> Neither stacks with `RUSHABH30`, so use whichever is bigger. Both beat 30% on everything they cover, so during these three days the sale codes are the better pick. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F) terms before you commit if you're buying a subscription or a THRIVE product.
+
+One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. August 27 is the date to plan around. If you're reading this on the 28th it may still work, but don't count on it.
+
+Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+
+## No sale running? Use the everyday code
 
 **30% off every current Linux Foundation and CNCF certification, exam bundle, and course.** No minimum spend, no expiry date. Copy the code below and paste it at checkout:
 
@@ -91,6 +117,7 @@ A running, honest record of official Linux Foundation sitewide sales. I keep the
 
 | Sale | Discount | Window | Status |
 | --- | --- | --- | --- |
+| End-of-Season Flash Sale | 35% courses & certs, 40% bundles & ILT | Aug 24-29, 2026 | See "Live now" above |
 | 35 Years of Linux anniversary | 35% sitewide | Aug 11-18, 2026 | Expired |
 | Mega May 2026 | 50% (up to 65% on THRIVE bundles) | May 12-24, 2026 | Expired |
 | Kubernetes Birthday | ~45% on Kubernetes certs | June 2026 | Expired |
