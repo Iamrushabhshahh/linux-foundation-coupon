@@ -12,10 +12,10 @@
      the next heads-up email arrives. Keep it above the evergreen RUSHABH30 block. -->
 ## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
 
-[![Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 27, 2026](assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp)](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F)
+[![Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 28, 2026](assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp)](https://rushabhshah.dev/go/sale)
 
 > [!IMPORTANT]
-> **End-of-Season Flash Sale:** up to 40% off, 3 days only, ends **August 27, 2026**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
+> **End-of-Season Flash Sale:** up to 40% off, ends **August 28, 2026**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
 >
 > 35% off courses & certifications:
 >
@@ -29,11 +29,20 @@
 > AUG26F40
 > ```
 >
-> [**Use them before they expire →**](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F)
+> [**Use them before they expire →**](https://rushabhshah.dev/go/sale)
 >
-> Neither stacks with `RUSHABH30`, so use whichever is bigger. Both beat 30% on everything they cover, so during these three days the sale codes are the better pick. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Faugust-flash-1%2F) terms before you commit if you're buying a subscription or a THRIVE product.
+> `AUG26F40` applies to the multi-exam bundles, which are already discounted before the code lands:
+>
+> - CKA + CKS: [rushabhshah.dev/go/cka-cks](https://rushabhshah.dev/go/cka-cks)
+> - CKA + CKAD + CKS: [rushabhshah.dev/go/cka-ckad-cks](https://rushabhshah.dev/go/cka-ckad-cks)
+> - KCNA + CKA: [rushabhshah.dev/go/kcna-cka](https://rushabhshah.dev/go/kcna-cka)
+> - Kubestronaut (KCNA + KCSA + CKA + CKAD + CKS): [rushabhshah.dev/go/kubestronaut](https://rushabhshah.dev/go/kubestronaut)
+>
+> I'm not quoting bundle percentages. Those pages don't publish a machine-readable price, so unlike the table below I can't verify them automatically, and I'd rather link you to the real number than invent one.
+>
+> Neither stacks with `RUSHABH30`, so use whichever is bigger. Both beat 30% on everything they cover, so while it runs the sale codes are the better pick. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product.
 
-One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. August 27 is the date to plan around. If you're reading this on the 28th it may still work, but don't count on it.
+One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. The terms are what the checkout actually honours, so **August 28 is the safe last day**. The 27th quoted in the marketing copy is a day early.
 
 Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
 
@@ -45,7 +54,7 @@ Sale codes never stack with `RUSHABH30`. The rule is always: use whichever disco
 RUSHABH30
 ```
 
-Prices below are checked automatically against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) every day, and were last confirmed as of **August 25, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
+Prices below are checked automatically against [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) every day, and were last confirmed as of **August 25, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -53,7 +62,7 @@ I'm [Rushabh Shah](https://rushabhshah.dev), a DevOps Engineer, [Docker Captain]
 
 ## How to redeem
 
-1. Go to [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) and add any certification, exam bundle, or course to your cart.
+1. Go to [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) and add any certification, exam bundle, or course to your cart.
 2. At checkout, enter `RUSHABH30` in the coupon code field.
 3. The total drops 30%.
 
@@ -61,30 +70,30 @@ Certification purchases come with **12 months to schedule and sit the exam**, so
 
 ## Pricing (verified 2026-08-25)
 
-| Certification | Tier | List price | With `RUSHABH30` |
-| --- | --- | --- | --- |
-| CKA: Certified Kubernetes Administrator | Professional | $445 | ~$311 |
-| CKAD: Certified Kubernetes Application Developer | Professional | $445 | ~$311 |
-| CKS: Certified Kubernetes Security Specialist *(requires an active CKA)* | Professional | $445 | ~$311 |
-| LFCS: Linux Foundation Certified System Administrator | Professional | $445 | ~$311 |
-| CNPE: Certified Cloud Native Platform Engineer | Professional | $445 | ~$311 |
-| KCNA: Kubernetes and Cloud Native Associate | Associate | $250 | ~$175 |
-| KCSA: Kubernetes and Cloud Native Security Associate | Associate | $250 | ~$175 |
-| LFCA: Linux Foundation Certified IT Associate | Associate | $250 | ~$175 |
-| PCA: Prometheus Certified Associate | Associate | $250 | ~$175 |
-| ICA: Istio Certified Associate | Associate | $250 | ~$175 |
-| CCA: Cilium Certified Associate | Associate | $250 | ~$175 |
-| CAPA: Certified Argo Project Associate | Associate | $250 | ~$175 |
-| CGOA: Certified GitOps Associate | Associate | $250 | ~$175 |
-| CBA: Certified Backstage Associate | Associate | $250 | ~$175 |
-| OTCA: OpenTelemetry Certified Associate | Associate | $250 | ~$175 |
-| KCA: Kyverno Certified Associate | Associate | $250 | ~$175 |
-| CNPA: Certified Cloud Native Platform Engineering Associate | Associate | $250 | ~$175 |
-| **Kubestronaut bundle** (KCNA + KCSA + CKA + CKAD + CKS) | Bundle | $1,645 | ~$1,151 |
-| **Golden Kubestronaut bundle** (all 16 certifications above) | Bundle | $4,229 | ~$2,960 |
-| **Kubestronaut &rarr; Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 |
+| Certification | Tier | List price | With `RUSHABH30` | Go |
+| --- | --- | --- | --- | --- |
+| CKA: Certified Kubernetes Administrator | Professional | $445 | ~$311 | [Buy](https://rushabhshah.dev/go/cka) |
+| CKAD: Certified Kubernetes Application Developer | Professional | $445 | ~$311 | [Buy](https://rushabhshah.dev/go/ckad) |
+| CKS: Certified Kubernetes Security Specialist *(requires an active CKA)* | Professional | $445 | ~$311 | [Buy](https://rushabhshah.dev/go/cks) |
+| LFCS: Linux Foundation Certified System Administrator | Professional | $445 | ~$311 | [Buy](https://rushabhshah.dev/go/lfcs) |
+| CNPE: Certified Cloud Native Platform Engineer | Professional | $445 | ~$311 | [Buy](https://rushabhshah.dev/go/cnpe) |
+| KCNA: Kubernetes and Cloud Native Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/kcna) |
+| KCSA: Kubernetes and Cloud Native Security Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/kcsa) |
+| LFCA: Linux Foundation Certified IT Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/lfca) |
+| PCA: Prometheus Certified Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/pca) |
+| ICA: Istio Certified Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/ica) |
+| CCA: Cilium Certified Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/cca) |
+| CAPA: Certified Argo Project Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/capa) |
+| CGOA: Certified GitOps Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/cgoa) |
+| CBA: Certified Backstage Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/cba) |
+| OTCA: OpenTelemetry Certified Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/otca) |
+| KCA: Kyverno Certified Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/kca) |
+| CNPA: Certified Cloud Native Platform Engineering Associate | Associate | $250 | ~$175 | [Buy](https://rushabhshah.dev/go/cnpa) |
+| **Kubestronaut bundle** (KCNA + KCSA + CKA + CKAD + CKS) | Bundle | $1,645 | ~$1,151 | [Buy](https://rushabhshah.dev/go/kubestronaut) |
+| **Golden Kubestronaut bundle** (all 16 certifications above) | Bundle | $4,229 | ~$2,960 | [Buy](https://rushabhshah.dev/go/golden-kubestronaut) |
+| **Kubestronaut &rarr; Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 | [Buy](https://rushabhshah.dev/go/golden-kubestronaut) |
 
-List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Fcertification-catalog%2F) before buying in case they've changed since.
+List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://rushabhshah.dev/go/catalog) before buying in case they've changed since.
 
 <details>
 <summary>How that "verified" date actually works</summary>
@@ -120,20 +129,57 @@ If you're not sure which one to start with, this is roughly how they map to actu
 
 Search "Linux Foundation coupon" and you'll find dozens of limited-time codes: anniversary sales, Cyber Monday, birthday promos, advertising 40-75% off. Almost all of them expire within days and get replaced by the next one. If you bookmark one of those pages, there's a good chance the code on it doesn't work by the time you're actually ready to buy. `RUSHABH30` isn't trying to win on the biggest number. It's the one still working when you come back next month. If you land here during a genuine flash sale that beats 30%, take it. Just check the exclusions (THRIVE subscriptions and bundles are usually carved out of the biggest sales) and confirm the expiry date before you commit.
 
+## FinOps certification discount
+
+Separate partner programme, separate checkout. `RUSHABH30` does not work on it.
+
+```
+RUSHABH_20
+```
+
+**20% off** the five FinOps Foundation self-paced certifications at [learn.finops.org](https://rushabhshah.dev/go/finops):
+
+| Certification | List price | With `RUSHABH_20` |
+| --- | --- | --- |
+| FinOps Certified Practitioner (FOCP) | $500 | ~$400 |
+| FinOps Certified Engineer (FOCE) | $500 | ~$400 |
+| FinOps Certified FOCUS Analyst | $400 | ~$320 |
+| FinOps Certified: AI Value | $500 | ~$400 |
+| FinOps Certified: Technology Value | $500 | ~$400 |
+
+Each as the Self-Paced Course + Certification Exam option. The code does **not** cover FinOps Certified Professional, the multi-certification bundles, FinOps for Containers, exam-only or recertification purchases, or corporate training subscriptions.
+
+Full per-certification guides, prep advice and FAQs: [rushabhshah.dev/finops-coupon](https://rushabhshah.dev/finops-coupon/)
+
 ## Sale archive
 
 A running, honest record of official Linux Foundation sitewide sales. I keep them even after they expire, so you can see the actual pattern instead of guessing. `RUSHABH30` is the floor every other day of the year.
 
-| Sale | Discount | Window | Status |
-| --- | --- | --- | --- |
-| End-of-Season Flash Sale | 35% courses & certs, 40% bundles & ILT | Aug 24-29, 2026 | See "Live now" above |
-| 35 Years of Linux anniversary | 35% sitewide | Aug 11-18, 2026 | Expired |
-| Mega May 2026 | 50% (up to 65% on THRIVE bundles) | May 12-24, 2026 | Expired |
-| Kubernetes Birthday | ~45% on Kubernetes certs | June 2026 | Expired |
-| Tech Talent sale | ~48% | Ended June 14, 2026 | Expired |
-| Lunar New Year | ~47% | Early 2026 | Expired |
-| Cyber Monday 2025 | ~65% sitewide | Nov 2025 | Expired |
-| September 2025 flash sale | Up to 75% on select bundles | Sept 2025, short window | Expired |
+Each one below is a real, dated sale with its own heading, so you can find the pattern (and check whether the code someone is still advertising elsewhere has actually expired).
+
+### [Up to 40% OFF] End-of-Season Flash Sale
+**Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`. **Currently live** — see the top of this page.
+
+### [35% OFF] 35 Years of Linux Anniversary Sale (Expired)
+**Aug 11 to 18, 2026.** 35% sitewide with code `TUX35`. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
+
+### [50% OFF] Mega May Sale 2026 (Expired)
+**May 12 to 24, 2026.** 50% off individual certifications, up to 65% off THRIVE subscription bundles. Announced roughly three weeks ahead, then extended past its original deadline — worth remembering if you miss a deadline by a day.
+
+### [~45% OFF] Kubernetes Birthday Sale 2026 (Expired)
+**June 2026.** Around 45% off Kubernetes certifications specifically (CKA, CKAD, CKS), rather than sitewide.
+
+### [~48% OFF] Tech Talent Sale 2026 (Expired)
+**Ended June 14, 2026.** Around 48% off, one of the deeper non-holiday discounts of the year.
+
+### [~47% OFF] Lunar New Year Sale 2026 (Expired)
+**Early 2026.** Around 47% off. A reliably recurring slot in the calendar.
+
+### [~65% OFF] Cyber Monday Sale 2025 (Expired)
+**November 2025.** Around 65% off sitewide. Historically the deepest discount of the year, so if you can wait, this is the one to wait for.
+
+### [Up to 75% OFF] September 2025 Flash Sale (Expired)
+**September 2025, short window.** Up to 75% off select bundles. The single biggest headline number in this archive, but narrow: bundles only.
 
 Every row here is one I've personally verified against the official terms at the time, not copied from another aggregator. If a code above is expired and someone's still advertising it elsewhere, it doesn't work. Use `RUSHABH30` instead.
 
