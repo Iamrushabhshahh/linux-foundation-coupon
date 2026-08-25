@@ -45,7 +45,7 @@ Sale codes never stack with `RUSHABH30`. The rule is always: use whichever disco
 RUSHABH30
 ```
 
-Prices below are verified directly against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) as of **August 25, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
+Prices below are checked automatically against [training.linuxfoundation.org](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2F) every day, and were last confirmed as of **August 25, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -85,6 +85,15 @@ Certification purchases come with **12 months to schedule and sit the exam**, so
 | **Kubestronaut &rarr; Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 |
 
 List prices are as published by the Linux Foundation at the time of verification. Check the [official catalog](https://www.awin1.com/cread.php?awinmid=85919&awinaffid=2950265&ued=https%3A%2F%2Ftraining.linuxfoundation.org%2Fcertification-catalog%2F) before buying in case they've changed since.
+
+<details>
+<summary>How that "verified" date actually works</summary>
+
+A dated freshness claim is worthless if a bot just rewrites the date every night, so this one can't. [`scripts/verify-prices.mjs`](scripts/verify-prices.mjs) runs daily, fetches all 17 certification pages above, reads the price each page publishes, and compares it to this table. It also re-does the 30% arithmetic in the last column. **The date only moves on a clean pass** — if any price has changed or any page stops resolving, the run fails, the [workflow](../../actions) goes red, and the date stays where it was until I fix the table. A stale date here means "not re-checked recently", never "checked and fine".
+
+The three bundle rows are the exception: they aren't sold from a page carrying the same machine-readable price, so I check those by hand and they don't ride along under the automated banner.
+
+</details>
 
 ## Which certification matches your role
 

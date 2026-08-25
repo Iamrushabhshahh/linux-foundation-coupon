@@ -1,7 +1,11 @@
-# Keeps the README's "verified" date current. This mirrors the same freshness
-# stamp pattern used on rushabhshah.dev/linux-foundation-coupon/ — the date is
-# only meaningful because it's genuinely automated, not manually edited.
-name: Stamp verified date
+# Checks the README's pricing table against the live Linux Foundation
+# certification pages, and only then stamps the "verified" date.
+#
+# A red run here means a price moved (or a page stopped resolving) and the
+# README is now wrong — that's the alert. The date deliberately stays put on
+# failure, so a stale-but-honest date is the worst case rather than a
+# confidently wrong one.
+name: Verify prices and stamp date
 
 on:
   schedule:
@@ -25,7 +29,7 @@ jobs:
         with:
           node-version: '24'
 
-      - run: node scripts/update-verified-date.mjs
+      - run: node scripts/verify-prices.mjs
 
       - name: Commit if changed
         run: |
@@ -35,6 +39,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Nothing to update."
           else
-            git commit -m "chore: stamp verified date"
+            git commit -m "chore: verify prices, stamp date"
             git push
           fi
