@@ -1,0 +1,24 @@
+{
+  "_comment": "The live sale, as data. scripts/verify-prices.mjs renders this into README.md between the SALE markers and REMOVES it once `end` passes, so a finished sale can't sit at the top of the page claiming to be live. Set to null (literally the word null on the `sale` key) when nothing is running.",
+  "sale": {
+    "name": "End-of-Season Flash Sale",
+    "headline": "up to 40% off",
+    "end": "2026-08-29T06:59:00Z",
+    "advertisedEnd": "August 28, 2026",
+    "landing": "https://rushabhshah.dev/go/sale",
+    "banner": "assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp",
+    "bannerAlt": "Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 28, 2026",
+    "codes": [
+      { "code": "AUG26F35", "what": "courses & certifications" },
+      { "code": "AUG26F40", "what": "bundles & instructor-led training" }
+    ],
+    "bundles": [
+      { "label": "CKA + CKS", "slug": "cka-cks" },
+      { "label": "CKA + CKAD + CKS", "slug": "cka-ckad-cks" },
+      { "label": "KCNA + CKA", "slug": "kcna-cka" },
+      { "label": "Kubestronaut (KCNA + KCSA + CKA + CKAD + CKS)", "slug": "kubestronaut" }
+    ],
+    "dateCaveat": "One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. The terms are what the checkout actually honours, so **August 28 is the safe last day**. The 27th quoted in the marketing copy is a day early.",
+    "terms": "The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product."
+  }
+}

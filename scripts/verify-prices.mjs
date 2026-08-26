@@ -58,10 +58,52 @@ const SLUGS = {
 
 const money = (s) => Number(String(s).replace(/[$,]/g, ''));
 
+/* The FinOps table is a second partner programme on a different platform, so
+   it needs its own map and its own price regex. It used to sit in the README
+   unverified next to a section boasting about verified pricing, which is
+   exactly the gap this script exists to close. */
+const FINOPS = {
+  'FinOps Certified Practitioner (FOCP)': 'https://learn.finops.org/path/finops-certified-practitioner-self-paced',
+  'FinOps Certified Engineer (FOCE)': 'https://learn.finops.org/path/finops-certified-engineer',
+  'FinOps Certified FOCUS Analyst': 'https://learn.finops.org/finops-certified-focus-analyst-certification',
+  'FinOps Certified: AI Value': 'https://learn.finops.org/path/certified-finops-for-ai',
+  'FinOps Certified: Technology Value': 'https://learn.finops.org/path/technology-value',
+};
+const FINOPS_DISCOUNT = 0.20;
+
 /* Reads the price rows straight out of the README so the table stays the single
    source of truth. Anything that isn't a "| CODE: Name |" row — the bundles,
    the role-mapping table, the sale archive — simply doesn't match and is left
    alone. */
+function parseFinopsTable(text) {
+  const rows = [];
+  for (const line of text.split('\n')) {
+    const m = line.match(/^\|\s*(FinOps [^|]+?)\s*\|\s*\$([\d,]+)\s*\|\s*~\$([\d,]+)\s*\|/);
+    if (m) rows.push({ name: m[1], list: money(m[2]), discounted: money(m[3]) });
+  }
+  return rows;
+}
+
+async function finopsPrice(name) {
+  const url = FINOPS[name];
+  if (!url) return { name, error: 'no URL mapped for this certification' };
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const body = await res.text();
+      // Anchored to the purchase control rather than any dollar sign on the
+      // page, so a redesign fails loudly instead of grabbing a bundle price.
+      const m = body.match(/Purchase\s*\|?\s*\$([\d,]+)/);
+      if (!m) throw new Error('no purchase price found on the page');
+      return { name, url, price: money(m[1]) };
+    } catch (err) {
+      if (attempt === 2) return { name, url, error: err.message };
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
+}
+
 function parseTable(text) {
   const rows = [];
   for (const line of text.split('\n')) {
@@ -93,6 +135,51 @@ async function livePrice(code) {
   }
 }
 
+/* ---------- live-sale block ----------
+   Same self-retiring contract the website uses. The block is rendered from
+   sale.json into the SALE markers, and once `end` passes the region is emptied
+   on the next daily run. Without this the README would keep a finished sale at
+   the top of the page announcing itself as live, which is the exact failure
+   visible on competing coupon repos right now. */
+const SALE_FILE = path.join(ROOT, 'sale.json');
+function renderSale(text) {
+  let sale = null;
+  try { sale = JSON.parse(fs.readFileSync(SALE_FILE, 'utf8')).sale; } catch { /* no sale file, treat as none */ }
+  const live = sale && new Date() < new Date(sale.end);
+  const codes = live ? sale.codes.map(c => `> ${c.what.charAt(0).toUpperCase() + c.what.slice(1)}:\n>\n> \`\`\`\n> ${c.code}\n> \`\`\``).join('\n>\n') : '';
+  const bundles = live ? sale.bundles.map(b => `> - ${b.label}: [rushabhshah.dev/go/${b.slug}](https://rushabhshah.dev/go/${b.slug})`).join('\n') : '';
+  const block = !live ? `
+*No Linux Foundation sale is running right now, so \`RUSHABH30\` at 30% is the best available discount. This section fills itself back in automatically the day the next sale starts.*
+` : `
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
+
+[![${sale.bannerAlt}](${sale.banner})](${sale.landing})
+
+> [!IMPORTANT]
+> **${sale.name}:** ${sale.headline}, ends **${sale.advertisedEnd}**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
+>
+${codes}
+>
+> [**Use them before they expire →**](${sale.landing})
+>
+> \`${sale.codes[sale.codes.length - 1].code}\` applies to the multi-exam bundles, which are already discounted before the code lands:
+>
+${bundles}
+>
+> I'm not quoting bundle percentages. Those pages don't publish a machine-readable price, so unlike the table below I can't verify them automatically, and I'd rather link you to the real number than invent one.
+>
+> Neither stacks with \`RUSHABH30\`, so use whichever is bigger. ${sale.terms}
+
+${sale.dateCaveat}
+
+Sale codes never stack with \`RUSHABH30\`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+`;
+  const status = live ? '**Currently live** — see the top of this page.' : 'Expired.';
+  return text
+    .replace(/(<!-- SALE:START -->)[\s\S]*?(<!-- SALE:END -->)/, (_m, o, c) => `${o}\n<!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit\n     between these markers. To run a new sale, edit sale.json. -->\n${block}${c}`)
+    .replace(/(<!-- SALE-STATUS:START -->)[\s\S]*?(<!-- SALE-STATUS:END -->)/, (_m, o, c) => `${o}${status}${c}`);
+}
+
 const text = fs.readFileSync(README, 'utf8');
 const rows = parseTable(text);
 if (!rows.length) {
@@ -121,6 +208,21 @@ for (const row of rows) {
   }
 }
 
+const finRows = parseFinopsTable(text);
+const finResults = await Promise.all(finRows.map(r => finopsPrice(r.name)));
+for (const row of finRows) {
+  const live = finResults.find(r => r.name === row.name);
+  if (live.error) { problems.push(`${row.name}: could not verify (${live.error})`); continue; }
+  if (live.price !== row.list) {
+    problems.push(`${row.name}: README says $${row.list}, live page says $${live.price} — ${live.url}`);
+    continue;
+  }
+  const expected = Math.floor(row.list * (1 - FINOPS_DISCOUNT));
+  if (Math.abs(row.discounted - expected) > 1) {
+    problems.push(`${row.name}: discounted column says ~$${row.discounted}, 20% off $${row.list} is ~$${expected}`);
+  }
+}
+
 if (problems.length) {
   console.error(`✗ ${problems.length} problem(s); leaving the verified date untouched:\n`);
   for (const p of problems) console.error(`   - ${p}`);
@@ -133,12 +235,13 @@ const today = now.toISOString().slice(0, 10);
 const longDate = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 const monthYear = now.toLocaleDateString('en-US', { year: 'numeric', month: 'long', timeZone: 'UTC' });
 
-const stamped = text
+const withSale = renderSale(text);
+const stamped = withSale
   .replace(/\(Updated [A-Za-z]+ \d{4}\)/, `(Updated ${monthYear})`)
   .replace(/as of \*\*[A-Za-z]+ \d{1,2}, \d{4}\*\*/, `as of **${longDate}**`)
   .replace(/Pricing \(verified \d{4}-\d{2}-\d{2}\)/, `Pricing (verified ${today})`);
 
-console.log(`✓ ${rows.length}/${rows.length} certification prices matched the live pages.`);
+console.log(`✓ ${rows.length}/${rows.length} Linux Foundation and ${finRows.length}/${finRows.length} FinOps prices matched the live pages.`);
 if (stamped !== text) {
   fs.writeFileSync(README, stamped);
   console.log(`✓ Stamped README with ${today}.`);

@@ -6,10 +6,10 @@
 [![Last commit](https://img.shields.io/github/last-commit/Iamrushabhshahh/linux-foundation-coupon?style=flat-square)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/commits/main)
 ![Views](https://komarev.com/ghpvc/?username=Iamrushabhshahh&label=repo+views&style=flat-square&color=f97316&repo=linux-foundation-coupon&base=1000)
 
-<!-- SALE PREP SLOT: when the current sale ends, delete this whole section (the
-     img link, the callout, and the paragraph after it), add a row for it in the
-     "Sale archive" table below, and drop the next sale's block back in here when
-     the next heads-up email arrives. Keep it above the evergreen RUSHABH30 block. -->
+<!-- SALE:START -->
+<!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
+     between these markers. To run a new sale, edit sale.json. -->
+
 ## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
 
 [![Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 28, 2026](assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp)](https://rushabhshah.dev/go/sale)
@@ -17,13 +17,13 @@
 > [!IMPORTANT]
 > **End-of-Season Flash Sale:** up to 40% off, ends **August 28, 2026**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
 >
-> 35% off courses & certifications:
+> Courses & certifications:
 >
 > ```
 > AUG26F35
 > ```
 >
-> 40% off bundles & instructor-led training:
+> Bundles & instructor-led training:
 >
 > ```
 > AUG26F40
@@ -40,13 +40,14 @@
 >
 > I'm not quoting bundle percentages. Those pages don't publish a machine-readable price, so unlike the table below I can't verify them automatically, and I'd rather link you to the real number than invent one.
 >
-> Neither stacks with `RUSHABH30`, so use whichever is bigger. Both beat 30% on everything they cover, so while it runs the sale codes are the better pick. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product.
+> Neither stacks with `RUSHABH30`, so use whichever is bigger. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product.
 
 One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. The terms are what the checkout actually honours, so **August 28 is the safe last day**. The 27th quoted in the marketing copy is a day early.
 
 Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+<!-- SALE:END -->
 
-## No sale running? Use the everyday code
+## Use the everyday code
 
 **30% off every current Linux Foundation and CNCF certification, exam bundle, and course.** No minimum spend, no expiry date. Copy the code below and paste it at checkout:
 
@@ -158,7 +159,7 @@ A running, honest record of official Linux Foundation sitewide sales. I keep the
 Each one below is a real, dated sale with its own heading, so you can find the pattern (and check whether the code someone is still advertising elsewhere has actually expired).
 
 ### [Up to 40% OFF] End-of-Season Flash Sale
-**Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`. **Currently live** — see the top of this page.
+**Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`. <!-- SALE-STATUS:START -->**Currently live** — see the top of this page.<!-- SALE-STATUS:END -->
 
 ### [35% OFF] 35 Years of Linux Anniversary Sale (Expired)
 **Aug 11 to 18, 2026.** 35% sitewide with code `TUX35`. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
