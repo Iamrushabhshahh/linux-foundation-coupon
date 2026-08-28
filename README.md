@@ -55,7 +55,7 @@ Sale codes never stack with `RUSHABH30`. The rule is always: use whichever disco
 RUSHABH30
 ```
 
-Prices below are checked automatically against [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) every day, and were last confirmed as of **August 26, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
+Prices below are checked automatically against [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) every day, and were last confirmed as of **August 28, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -69,7 +69,7 @@ I'm [Rushabh Shah](https://rushabhshah.dev), a DevOps Engineer, [Docker Captain]
 
 Certification purchases come with **12 months to schedule and sit the exam**, so buying now and scheduling once you're actually ready is completely normal. It's what most people do.
 
-## Pricing (verified 2026-08-26)
+## Pricing (verified 2026-08-28)
 
 | Certification | Tier | List price | With `RUSHABH30` | Go |
 | --- | --- | --- | --- | --- |
