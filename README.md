@@ -10,41 +10,7 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
-
-[![Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 28, 2026](assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp)](https://rushabhshah.dev/go/sale)
-
-> [!IMPORTANT]
-> **End-of-Season Flash Sale:** up to 40% off, ends **August 28, 2026**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
->
-> Courses & certifications:
->
-> ```
-> AUG26F35
-> ```
->
-> Bundles & instructor-led training:
->
-> ```
-> AUG26F40
-> ```
->
-> [**Use them before they expire →**](https://rushabhshah.dev/go/sale)
->
-> `AUG26F40` applies to the multi-exam bundles, which are already discounted before the code lands:
->
-> - CKA + CKS: [rushabhshah.dev/go/cka-cks](https://rushabhshah.dev/go/cka-cks)
-> - CKA + CKAD + CKS: [rushabhshah.dev/go/cka-ckad-cks](https://rushabhshah.dev/go/cka-ckad-cks)
-> - KCNA + CKA: [rushabhshah.dev/go/kcna-cka](https://rushabhshah.dev/go/kcna-cka)
-> - Kubestronaut (KCNA + KCSA + CKA + CKAD + CKS): [rushabhshah.dev/go/kubestronaut](https://rushabhshah.dev/go/kubestronaut)
->
-> I'm not quoting bundle percentages. Those pages don't publish a machine-readable price, so unlike the table below I can't verify them automatically, and I'd rather link you to the real number than invent one.
->
-> Neither stacks with `RUSHABH30`, so use whichever is bigger. The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product.
-
-One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. The terms are what the checkout actually honours, so **August 28 is the safe last day**. The 27th quoted in the marketing copy is a day early.
-
-Sale codes never stack with `RUSHABH30`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+*No Linux Foundation sale is running right now, so `RUSHABH30` at 30% is the best available discount. This section fills itself back in automatically the day the next sale starts.*
 <!-- SALE:END -->
 
 ## Use the everyday code
@@ -159,7 +125,7 @@ A running, honest record of official Linux Foundation sitewide sales. I keep the
 Each one below is a real, dated sale with its own heading, so you can find the pattern (and check whether the code someone is still advertising elsewhere has actually expired).
 
 ### [Up to 40% OFF] End-of-Season Flash Sale
-**Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`. <!-- SALE-STATUS:START -->**Currently live** — see the top of this page.<!-- SALE-STATUS:END -->
+**Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`. <!-- SALE-STATUS:START -->Expired.<!-- SALE-STATUS:END -->
 
 ### [35% OFF] 35 Years of Linux Anniversary Sale (Expired)
 **Aug 11 to 18, 2026.** 35% sitewide with code `TUX35`. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
