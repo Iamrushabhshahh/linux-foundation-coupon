@@ -1,4 +1,4 @@
-# Linux Foundation Coupon Codes (Updated August 2026): 30% Off Every CNCF Certification With RUSHABH30
+# Linux Foundation Coupon Codes (Updated September 2026): 30% Off Every CNCF Certification With RUSHABH30
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/network/members)
@@ -21,7 +21,7 @@
 RUSHABH30
 ```
 
-Prices below are checked automatically against [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) every day, and were last confirmed as of **August 31, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
+Prices below are checked automatically against [training.linuxfoundation.org](https://rushabhshah.dev/go/catalog) every day, and were last confirmed as of **September 1, 2026**. Full per-certification guides (exam domains, prep tips, FAQs) live at **[rushabhshah.dev/linux-foundation-coupon](https://rushabhshah.dev/linux-foundation-coupon/)**. This repo is the quick reference version.
 
 ## Who's giving this out, and why
 
@@ -35,7 +35,7 @@ I'm [Rushabh Shah](https://rushabhshah.dev), a DevOps Engineer, [Docker Captain]
 
 Certification purchases come with **12 months to schedule and sit the exam**, so buying now and scheduling once you're actually ready is completely normal. It's what most people do.
 
-## Pricing (verified 2026-08-31)
+## Pricing (verified 2026-09-01)
 
 | Certification | Tier | List price | With `RUSHABH30` | Go |
 | --- | --- | --- | --- | --- |
