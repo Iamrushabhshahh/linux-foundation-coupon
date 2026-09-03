@@ -149,30 +149,28 @@ function renderSale(text) {
   const codes = live ? sale.codes.map(c => `> ${c.what.charAt(0).toUpperCase() + c.what.slice(1)}:\n>\n> \`\`\`\n> ${c.code}\n> \`\`\``).join('\n>\n') : '';
   const bundles = live ? sale.bundles.map(b => `> - ${b.label}: [rushabhshah.dev/go/${b.slug}](https://rushabhshah.dev/go/${b.slug})`).join('\n') : '';
   const block = !live ? `
-*No Linux Foundation sale is running right now, so \`RUSHABH30\` at 30% is the best available discount. This section fills itself back in automatically the day the next sale starts.*
+*No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
 ` : `
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: beats RUSHABH30 while it lasts
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: a bigger discount than 30% while it lasts
 
 [![${sale.bannerAlt}](${sale.banner})](${sale.landing})
 
 > [!IMPORTANT]
-> **${sale.name}:** ${sale.headline}, ends **${sale.advertisedEnd}**. I got the heads-up on this one directly from the Linux Foundation affiliate team, so it's not scraped from anywhere else.
+> **${sale.name}:** ${sale.headline}. Ends **${sale.advertisedEnd}**.
 >
 ${codes}
 >
 > [**Use them before they expire →**](${sale.landing})
 >
-> \`${sale.codes[sale.codes.length - 1].code}\` applies to the multi-exam bundles, which are already discounted before the code lands:
+> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:
 >
 ${bundles}
 >
-> I'm not quoting bundle percentages. Those pages don't publish a machine-readable price, so unlike the table below I can't verify them automatically, and I'd rather link you to the real number than invent one.
->
-> Neither stacks with \`RUSHABH30\`, so use whichever is bigger. ${sale.terms}
+> Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today. ${sale.terms}
 
 ${sale.dateCaveat}
 
-Sale codes never stack with \`RUSHABH30\`. The rule is always: use whichever discount is bigger, right now. This section only shows a sale while it's genuinely running, so check the date above before assuming it still applies.
+This banner comes down by itself the day the sale ends, so if you can see it, the sale is still on.
 `;
   const status = live ? '**Currently live** — see the top of this page.' : 'Expired.';
   return text
@@ -239,7 +237,7 @@ const withSale = renderSale(text);
 const stamped = withSale
   .replace(/\(Updated [A-Za-z]+ \d{4}\)/, `(Updated ${monthYear})`)
   .replace(/as of \*\*[A-Za-z]+ \d{1,2}, \d{4}\*\*/, `as of **${longDate}**`)
-  .replace(/Pricing \(verified \d{4}-\d{2}-\d{2}\)/, `Pricing (verified ${today})`);
+  .replace(/\(verified \d{4}-\d{2}-\d{2}\)/, `(verified ${today})`);
 
 console.log(`✓ ${rows.length}/${rows.length} Linux Foundation and ${finRows.length}/${finRows.length} FinOps prices matched the live pages.`);
 if (stamped !== text) {
