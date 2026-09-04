@@ -21,7 +21,7 @@ RUSHABH30
 
 **30% off every Linux Foundation and CNCF certification, exam bundle and course.** No minimum spend. No expiry date. It works on the Kubernetes exams (CKA, CKAD, CKS), the associate exams (KCNA, KCSA, PCA and the rest), LFCS, and the Kubestronaut bundles.
 
-In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **September 3, 2026**.
+In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **September 4, 2026**.
 
 ## How to apply the coupon at checkout
 
@@ -31,7 +31,7 @@ In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $
 
 Buying does not mean you have to sit the exam soon. Every certification purchase gives you **12 months to schedule and take it**, so buying at a discount now and booking a date once you have studied is normal.
 
-## Linux Foundation and CNCF exam prices (verified 2026-09-03)
+## Linux Foundation and CNCF exam prices (verified 2026-09-04)
 
 | Certification | Level | List price | You pay with `RUSHABH30` | You save | Buy |
 | --- | --- | --- | --- | --- | --- |
