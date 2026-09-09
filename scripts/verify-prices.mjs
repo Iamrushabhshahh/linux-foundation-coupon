@@ -146,12 +146,28 @@ function renderSale(text) {
   let sale = null;
   try { sale = JSON.parse(fs.readFileSync(SALE_FILE, 'utf8')).sale; } catch { /* no sale file, treat as none */ }
   const live = sale && new Date() < new Date(sale.end);
-  const codes = live ? sale.codes.map(c => `> ${c.what.charAt(0).toUpperCase() + c.what.slice(1)}:\n>\n> \`\`\`\n> ${c.code}\n> \`\`\``).join('\n>\n') : '';
-  const bundles = live ? sale.bundles.map(b => `> - ${b.label}: [rushabhshah.dev/go/${b.slug}](https://rushabhshah.dev/go/${b.slug})`).join('\n') : '';
+  // A sale may have no coupon code at all (the September 2026 Switch & Save
+  // cut was built into the landing-page bundle prices). Empty `codes` renders
+  // the noCodeNote instead of code boxes. `bundles` entries link to `url` if
+  // given, else to rushabhshah.dev/go/<slug>.
+  const codes = live && sale.codes.length
+    ? sale.codes.map(c => `> ${c.what.charAt(0).toUpperCase() + c.what.slice(1)}:\n>\n> \`\`\`\n> ${c.code}\n> \`\`\``).join('\n>\n')
+    : live ? `> ${sale.noCodeNote || 'No code needed: the discount is already applied on the landing page.'}` : '';
+  const bundles = live ? (sale.bundles || []).map(b => `> - ${b.label}${b.url || b.slug ? ` ([${b.url ? b.url.replace(/^https?:\/\//, '') : `rushabhshah.dev/go/${b.slug}`}](${b.url || `https://rushabhshah.dev/go/${b.slug}`}))` : ''}`).join('\n') : '';
+  const bundleIntro = live
+    ? (sale.codes.length
+        ? `> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:`
+        : `> The bundles on sale, two price tiers:`)
+    : '';
+  const compare = live
+    ? (sale.beatsEveryday === false && sale.compare
+        ? sale.compare
+        : `Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today.`)
+    : '';
   const block = !live ? `
 *No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
 ` : `
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: a bigger discount than 30% while it lasts
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: ${sale.beatsEveryday === false ? 'a Linux Foundation sale is running' : 'a bigger discount than 30% while it lasts'}
 
 [![${sale.bannerAlt}](${sale.banner})](${sale.landing})
 
@@ -160,19 +176,19 @@ function renderSale(text) {
 >
 ${codes}
 >
-> [**Use them before they expire →**](${sale.landing})
+> [**See the sale before it ends →**](${sale.landing})
 >
-> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:
+${bundleIntro}
 >
 ${bundles}
 >
-> Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today. ${sale.terms}
+> ${compare} ${sale.terms}
 
 ${sale.dateCaveat}
 
 This banner comes down by itself the day the sale ends, so if you can see it, the sale is still on.
 `;
-  const status = live ? '**Currently live** — see the top of this page.' : 'Expired.';
+  const status = live ? '**Currently live**, see the top of this page.' : 'Expired.';
   return text
     .replace(/(<!-- SALE:START -->)[\s\S]*?(<!-- SALE:END -->)/, (_m, o, c) => `${o}\n<!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit\n     between these markers. To run a new sale, edit sale.json. -->\n${block}${c}`)
     .replace(/(<!-- SALE-STATUS:START -->)[\s\S]*?(<!-- SALE-STATUS:END -->)/, (_m, o, c) => `${o}${status}${c}`);

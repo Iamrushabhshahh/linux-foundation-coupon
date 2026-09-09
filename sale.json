@@ -1,24 +1,26 @@
 {
-  "_comment": "The live sale, as data. scripts/verify-prices.mjs renders this into README.md between the SALE markers and REMOVES it once `end` passes, so a finished sale can't sit at the top of the page claiming to be live. Set to null (literally the word null on the `sale` key) when nothing is running.",
+  "_comment": "The live sale, as data. scripts/verify-prices.mjs renders this into README.md between the SALE markers and REMOVES it once `end` passes, so a finished sale can't sit at the top of the page claiming to be live. Set to null (literally the word null on the `sale` key) when nothing is running. `codes` may be empty for a sale with no coupon code; `beatsEveryday` controls whether the callout says the sale beats RUSHABH30 or spells out when it doesn't.",
   "sale": {
-    "name": "End-of-Season Flash Sale",
-    "headline": "up to 40% off",
-    "end": "2026-08-29T06:59:00Z",
-    "advertisedEnd": "August 28, 2026",
+    "name": "Switch & Save flash sale",
+    "headline": "40% off a certification exam plus an extra 20% off THRIVE-ONE Annual, when bought as a bundle",
+    "end": "2026-09-11T23:59:00Z",
+    "advertisedEnd": "September 11, 2026",
     "landing": "https://rushabhshah.dev/go/sale",
-    "banner": "assets/linux-foundation-aug26-flash-sale-35-40-percent-off.webp",
-    "bannerAlt": "Linux Foundation End-of-Season Flash Sale: 35% off courses and certifications with code AUG26F35, 40% off bundles and instructor-led training with code AUG26F40, ends August 28, 2026",
-    "codes": [
-      { "code": "AUG26F35", "what": "courses & certifications" },
-      { "code": "AUG26F40", "what": "bundles & instructor-led training" }
-    ],
+    "banner": "assets/linux-foundation-sep26-switch-save-40-20-percent-off.webp",
+    "bannerAlt": "Linux Foundation Switch & Save, September 9 to 11, 2026: 40% off certifications plus 20% off THRIVE-ONE Annual when bundled. Unlimited learning, subscriber exclusives, SkillCred All-Access, plus an industry-recognized certification.",
+    "codes": [],
+    "noCodeNote": "No code this time. The bundle prices on the landing page already include both cuts, so you pick a bundle and check out.",
+    "beatsEveryday": false,
+    "compare": "This only beats `RUSHABH30` if you wanted the THRIVE-ONE Annual subscription anyway (unlimited courses, SkillCred All-Access, subscriber extras). If you only want the exam, `RUSHABH30` is still cheaper: CKA alone is about $311 with it, against $553 for the CKA bundle. Sale prices don't stack with `RUSHABH30`.",
     "bundles": [
-      { "label": "CKA + CKS", "slug": "cka-cks" },
-      { "label": "CKA + CKAD + CKS", "slug": "cka-ckad-cks" },
-      { "label": "KCNA + CKA", "slug": "kcna-cka" },
-      { "label": "Kubestronaut (KCNA + KCSA + CKA + CKAD + CKS)", "slug": "kubestronaut" }
+      {
+        "label": "CKA, CKAD, CKS, LFCS or CNPE + THRIVE-ONE Annual: ~~$805~~ **$553**"
+      },
+      {
+        "label": "KCNA, KCSA, PCA, OTCA, CGOA, ICA, CCA, CAPA, LFCA and the other associate exams + THRIVE-ONE Annual: ~~$610~~ **$423**"
+      }
     ],
-    "dateCaveat": "One caveat on the dates, because the announcement contradicts itself: the marketing copy says August 25-27, while the offer terms give August 24, 3:00 PM ET through August 29, 2:59 AM ET. The terms are what the checkout actually honours, so **August 28 is the safe last day**. The 27th quoted in the marketing copy is a day early.",
-    "terms": "The announcement lists standard terms rather than a published exclusion list, so check the [landing page](https://rushabhshah.dev/go/sale) terms before you commit if you're buying a subscription or a THRIVE product."
+    "dateCaveat": "On the dates: the offer terms end at 23:59 UTC on September 11, 2026, which is 5:29 AM IST on September 12. The marketing copy and the terms agree this time, so September 11 is the last day to buy.",
+    "terms": "New, individual purchases only, not renewals, and it can't be combined with other discounts. Bundle prices above were read off the landing page on September 9, 2026 and are hand-checked, not part of the automated price check."
   }
 }
