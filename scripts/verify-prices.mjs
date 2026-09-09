@@ -155,9 +155,9 @@ function renderSale(text) {
     : live ? `> ${sale.noCodeNote || 'No code needed: the discount is already applied on the landing page.'}` : '';
   const bundles = live ? (sale.bundles || []).map(b => `> - ${b.label}${b.url || b.slug ? ` ([${b.url ? b.url.replace(/^https?:\/\//, '') : `rushabhshah.dev/go/${b.slug}`}](${b.url || `https://rushabhshah.dev/go/${b.slug}`}))` : ''}`).join('\n') : '';
   const bundleIntro = live
-    ? (sale.codes.length
+    ? (sale.bundleIntro ? `> ${sale.bundleIntro}` : sale.codes.length
         ? `> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:`
-        : `> The bundles on sale, two price tiers:`)
+        : `> What the bundles cost:`)
     : '';
   const compare = live
     ? (sale.beatsEveryday === false && sale.compare
@@ -167,26 +167,24 @@ function renderSale(text) {
   const block = !live ? `
 *No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
 ` : `
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: ${sale.beatsEveryday === false ? 'a Linux Foundation sale is running' : 'a bigger discount than 30% while it lasts'}
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> ${sale.name}, ends ${sale.advertisedEnd}
 
 [![${sale.bannerAlt}](${sale.banner})](${sale.landing})
 
 > [!IMPORTANT]
-> **${sale.name}:** ${sale.headline}. Ends **${sale.advertisedEnd}**.
+> **${sale.headline}.** Ends **${sale.advertisedEnd}**.
 >
 ${codes}
 >
-> [**See the sale before it ends →**](${sale.landing})
+> [**Go to the sale →**](${sale.landing})
 >
 ${bundleIntro}
 >
 ${bundles}
 >
-> ${compare} ${sale.terms}
+> ${[compare, sale.terms].filter(Boolean).join(' ')}
 
 ${sale.dateCaveat}
-
-This banner comes down by itself the day the sale ends, so if you can see it, the sale is still on.
 `;
   const status = live ? '**Currently live**, see the top of this page.' : 'Expired.';
   return text

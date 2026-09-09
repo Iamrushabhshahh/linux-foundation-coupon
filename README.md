@@ -10,27 +10,25 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Live now: a Linux Foundation sale is running
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Switch & Save sale, ends September 11
 
-[![Linux Foundation Switch & Save, September 9 to 11, 2026: 40% off certifications plus 20% off THRIVE-ONE Annual when bundled. Unlimited learning, subscriber exclusives, SkillCred All-Access, plus an industry-recognized certification.](assets/linux-foundation-sep26-switch-save-40-20-percent-off.webp)](https://rushabhshah.dev/go/sale)
+[![Linux Foundation Switch & Save sale, September 9 to 11: 40% off certifications, 20% off THRIVE-ONE Annual, bundled](assets/linux-foundation-sep26-switch-save-40-20-percent-off.webp)](https://rushabhshah.dev/go/sale)
 
 > [!IMPORTANT]
-> **Switch & Save flash sale:** 40% off a certification exam plus an extra 20% off THRIVE-ONE Annual, when bought as a bundle. Ends **September 11, 2026**.
+> **40% off any certification when you bundle it with THRIVE-ONE Annual, and the subscription itself is 20% off in the bundle.** Ends **September 11**.
 >
-> No code this time. The bundle prices on the landing page already include both cuts, so you pick a bundle and check out.
+> There's no code for this one. Pick a bundle on the sale page and the price is already cut.
 >
-> [**See the sale before it ends →**](https://rushabhshah.dev/go/sale)
+> [**Go to the sale →**](https://rushabhshah.dev/go/sale)
 >
-> The bundles on sale, two price tiers:
+> What the bundles cost:
 >
 > - CKA, CKAD, CKS, LFCS or CNPE + THRIVE-ONE Annual: ~~$805~~ **$553**
-> - KCNA, KCSA, PCA, OTCA, CGOA, ICA, CCA, CAPA, LFCA and the other associate exams + THRIVE-ONE Annual: ~~$610~~ **$423**
+> - KCNA, KCSA, PCA, OTCA and the other associate exams + THRIVE-ONE Annual: ~~$610~~ **$423**
 >
-> This only beats `RUSHABH30` if you wanted the THRIVE-ONE Annual subscription anyway (unlimited courses, SkillCred All-Access, subscriber extras). If you only want the exam, `RUSHABH30` is still cheaper: CKA alone is about $311 with it, against $553 for the CKA bundle. Sale prices don't stack with `RUSHABH30`. New, individual purchases only, not renewals, and it can't be combined with other discounts. Bundle prices above were read off the landing page on September 9, 2026 and are hand-checked, not part of the automated price check.
+> Honest take: good deal if you actually want THRIVE-ONE (every course and every SkillCred exam for a year). If you just want the exam, skip it. CKA with `RUSHABH30` is $311. The CKA bundle is $553. You can't use the code on top of the sale.
 
-On the dates: the offer terms end at 23:59 UTC on September 11, 2026, which is 5:29 AM IST on September 12. The marketing copy and the terms agree this time, so September 11 is the last day to buy.
-
-This banner comes down by itself the day the sale ends, so if you can see it, the sale is still on.
+Runs until 23:59 UTC on September 11, which is 5:29 AM IST on the 12th. New purchases only, not renewals.
 <!-- SALE:END -->
 
 ## Get 30% off with this coupon code
@@ -170,8 +168,8 @@ Twelve months from purchase to schedule and take it.
 
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
-### [40% + 20% OFF, bundled] Switch & Save Flash Sale
-**Sep 9 to 11, 2026.** 40% off a certification exam plus an extra 20% off a THRIVE-ONE Annual subscription when bought together as a bundle. No code, the cut was built into the landing-page prices ($805 bundles at $553, $610 bundles at $423). Cheaper than `RUSHABH30` only if you wanted the subscription too. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+### [40% + 20% OFF, bundles only] Switch & Save Sale
+**Sep 9 to 11, 2026.** 40% off a certification and 20% off THRIVE-ONE Annual, only as a bundle, no code. $805 bundles went to $553, $610 to $423. Only cheaper than `RUSHABH30` if you wanted the subscription anyway. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
 
 ### [Up to 40% OFF] End-of-Season Flash Sale (Expired)
 **Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`.
