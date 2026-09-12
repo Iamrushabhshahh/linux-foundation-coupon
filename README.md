@@ -10,25 +10,7 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> Switch & Save sale, ends September 11
-
-[![Linux Foundation Switch & Save sale, September 9 to 11: 40% off certifications, 20% off THRIVE-ONE Annual, bundled](assets/linux-foundation-sep26-switch-save-40-20-percent-off.webp)](https://rushabhshah.dev/go/sale)
-
-> [!IMPORTANT]
-> **40% off any certification when you bundle it with THRIVE-ONE Annual, and the subscription itself is 20% off in the bundle.** Ends **September 11**.
->
-> There's no code for this one. Pick a bundle on the sale page and the price is already cut.
->
-> [**Go to the sale →**](https://rushabhshah.dev/go/sale)
->
-> What the bundles cost:
->
-> - CKA, CKAD, CKS, LFCS or CNPE + THRIVE-ONE Annual: ~~$805~~ **$553**
-> - KCNA, KCSA, PCA, OTCA and the other associate exams + THRIVE-ONE Annual: ~~$610~~ **$423**
->
-> Honest take: good deal if you actually want THRIVE-ONE (every course and every SkillCred exam for a year). If you just want the exam, skip it. CKA with `RUSHABH30` is $311. The CKA bundle is $553. You can't use the code on top of the sale.
-
-Runs until 23:59 UTC on September 11, which is 5:29 AM IST on the 12th. New purchases only, not renewals.
+*No Linux Foundation sale is running today, so `RUSHABH30` at 30% is the best discount you can get right now.*
 <!-- SALE:END -->
 
 ## Get 30% off with this coupon code
@@ -39,7 +21,7 @@ RUSHABH30
 
 **30% off every Linux Foundation and CNCF certification, exam bundle and course.** No minimum spend. No expiry date. It works on the Kubernetes exams (CKA, CKAD, CKS), the associate exams (KCNA, KCSA, PCA and the rest), LFCS, and the Kubestronaut bundles.
 
-In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **September 11, 2026**.
+In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **September 12, 2026**.
 
 ## How to apply the coupon at checkout
 
@@ -49,7 +31,7 @@ In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $
 
 Buying does not mean you have to sit the exam soon. Every certification purchase gives you **12 months to schedule and take it**, so buying at a discount now and booking a date once you have studied is normal.
 
-## Linux Foundation and CNCF exam prices (verified 2026-09-11)
+## Linux Foundation and CNCF exam prices (verified 2026-09-12)
 
 | Certification | Level | List price | You pay with `RUSHABH30` | You save | Buy |
 | --- | --- | --- | --- | --- | --- |
@@ -169,7 +151,7 @@ Twelve months from purchase to schedule and take it.
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
 ### [40% + 20% OFF, bundles only] Switch & Save Sale
-**Sep 9 to 11, 2026.** 40% off a certification and 20% off THRIVE-ONE Annual, only as a bundle, no code. $805 bundles went to $553, $610 to $423. Only cheaper than `RUSHABH30` if you wanted the subscription anyway. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+**Sep 9 to 11, 2026.** 40% off a certification and 20% off THRIVE-ONE Annual, only as a bundle, no code. $805 bundles went to $553, $610 to $423. Only cheaper than `RUSHABH30` if you wanted the subscription anyway. <!-- SALE-STATUS:START -->Expired.<!-- SALE-STATUS:END -->
 
 ### [Up to 40% OFF] End-of-Season Flash Sale (Expired)
 **Aug 24 to 28, 2026.** 35% off courses and certifications with `AUG26F35`, 40% off bundles and instructor-led training with `AUG26F40`.
