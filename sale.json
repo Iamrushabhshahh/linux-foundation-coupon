@@ -38,6 +38,14 @@
         "slug": "golden-kubestronaut"
       },
       {
+        "label": "CKA or CKAD to Kubestronaut upgrade (the other 4 exams): ~~$1235~~ **$741** with `SEPT26BTS40`",
+        "slug": "cka-to-kubestronaut"
+      },
+      {
+        "label": "Kubestronaut to Golden Kubestronaut upgrade (the other 11 exams): ~~$2669~~ **$1602** with `SEPT26BTS40`",
+        "slug": "kubestronaut-to-golden-kubestronaut"
+      },
+      {
         "label": "CKA + CKAD + CKS exam bundle: ~~$1245~~ **$747** with `SEPT26BTS40`",
         "slug": "cka-ckad-cks"
       }

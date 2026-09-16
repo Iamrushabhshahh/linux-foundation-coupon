@@ -37,6 +37,8 @@
 > - KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163** with `SEPT26BTS35` ([rushabhshah.dev/go/kcna](https://rushabhshah.dev/go/kcna))
 > - Kubestronaut bundle (KCNA, KCSA, CKA, CKAD, CKS): ~~$1645~~ **$987** with `SEPT26BTS40` ([rushabhshah.dev/go/kubestronaut](https://rushabhshah.dev/go/kubestronaut))
 > - Golden Kubestronaut bundle (all 16 exams): ~~$4229~~ **$2538** with `SEPT26BTS40` ([rushabhshah.dev/go/golden-kubestronaut](https://rushabhshah.dev/go/golden-kubestronaut))
+> - CKA or CKAD to Kubestronaut upgrade (the other 4 exams): ~~$1235~~ **$741** with `SEPT26BTS40` ([rushabhshah.dev/go/cka-to-kubestronaut](https://rushabhshah.dev/go/cka-to-kubestronaut))
+> - Kubestronaut to Golden Kubestronaut upgrade (the other 11 exams): ~~$2669~~ **$1602** with `SEPT26BTS40` ([rushabhshah.dev/go/kubestronaut-to-golden-kubestronaut](https://rushabhshah.dev/go/kubestronaut-to-golden-kubestronaut))
 > - CKA + CKAD + CKS exam bundle: ~~$1245~~ **$747** with `SEPT26BTS40` ([rushabhshah.dev/go/cka-ckad-cks](https://rushabhshah.dev/go/cka-ckad-cks))
 >
 > This one beats `RUSHABH30` on everything: 35% on a single exam, 40% on the bundles, against the code's 30%. They don't stack, so use the sale code until September 22 and `RUSHABH30` after that.
@@ -84,8 +86,10 @@ Buying does not mean you have to sit the exam soon. Every certification purchase
 | KCA: Kyverno Certified Associate | Associate | $250 | ~$175 | ~$75 | [Buy](https://rushabhshah.dev/go/kca) |
 | CNPA: Certified Cloud Native Platform Engineering Associate | Associate | $250 | ~$175 | ~$75 | [Buy](https://rushabhshah.dev/go/cnpa) |
 | **Kubestronaut bundle** (KCNA + KCSA + CKA + CKAD + CKS) | Bundle | $1,645 | ~$1,151 | ~$494 | [Buy](https://rushabhshah.dev/go/kubestronaut) |
+| **CKA to Kubestronaut upgrade** (hold the CKA? just the other 4) | Bundle | $1,235 | ~$864 | ~$371 | [Buy](https://rushabhshah.dev/go/cka-to-kubestronaut) |
+| **CKAD to Kubestronaut upgrade** (hold the CKAD? just the other 4) | Bundle | $1,235 | ~$864 | ~$371 | [Buy](https://rushabhshah.dev/go/ckad-to-kubestronaut) |
 | **Golden Kubestronaut bundle** (all 16 certifications above) | Bundle | $4,229 | ~$2,960 | ~$1,269 | [Buy](https://rushabhshah.dev/go/golden-kubestronaut) |
-| **Kubestronaut to Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 | ~$801 | [Buy](https://rushabhshah.dev/go/golden-kubestronaut) |
+| **Kubestronaut to Golden upgrade** (already a Kubestronaut? just the other 11) | Bundle | $2,669 | ~$1,868 | ~$801 | [Buy](https://rushabhshah.dev/go/kubestronaut-to-golden-kubestronaut) |
 
 Every list price here is the one the Linux Foundation publishes on its own certification pages. A [script](scripts/verify-prices.mjs) re-reads all 17 of those pages daily and only moves the date in that heading when all of them still match. If a price changes, the [daily check](../../actions) fails and the date stays where it was until I update the table, so an old date means "not re-checked lately" rather than "checked and fine". The three bundle rows do not publish a machine-readable price, so I check those by hand.
 

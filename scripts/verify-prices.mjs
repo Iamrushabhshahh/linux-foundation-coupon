@@ -58,6 +58,60 @@ const SLUGS = {
 
 const money = (s) => Number(String(s).replace(/[$,]/g, ''));
 
+/* Bundle rows are keyed by their /go/ slug rather than a 3-4 letter exam code,
+   because bundles do not have one. They were sitting in the table unverified,
+   which is the same gap the FinOps map below was added to close: five prices
+   claiming to be checked daily while nothing checked them. The Kubestronaut to
+   Golden upgrade row was also pointing at the full Golden bundle, $1,560 dearer
+   than the SKU it names, which is exactly the sort of thing this catches. */
+const BUNDLE_SLUGS = {
+  'kubestronaut': 'kubestronaut-bundle',
+  'golden-kubestronaut': 'golden-kubestronaut-bundle',
+  'cka-to-kubestronaut': 'cka-to-kubestronaut-upgrade-bundle',
+  'ckad-to-kubestronaut': 'ckad-to-kubestronaut-upgrade-bundle',
+  'kubestronaut-to-golden-kubestronaut': 'kubestronaut-to-golden-kubestronaut-upgrade-bundle',
+};
+
+function parseBundles(text) {
+  const rows = [];
+  for (const line of text.split('\n')) {
+    const m = line.match(/^\|[^|]*\|[^|]*\|\s*\$([\d,]+)\s*\|\s*~\$([\d,]+)\s*\|[^|]*\|\s*\[Buy\]\(https:\/\/rushabhshah\.dev\/go\/([a-z-]+)\)/);
+    if (m && BUNDLE_SLUGS[m[3]]) rows.push({ code: m[3], list: money(m[1]), discounted: money(m[2]), line });
+  }
+  return rows;
+}
+
+async function liveBundlePrice(key) {
+  const url = `https://training.linuxfoundation.org/certification/${BUNDLE_SLUGS[key]}/`;
+  for (let attempt = 1; attempt <= 2; attempt++) {
+    try {
+      const res = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const body = await res.text();
+      const m = body.match(/"price"\s*:\s*([\d.]+)\s*,\s*"item_id"\s*:\s*"([^"]+)"/)
+             || body.match(/"item_id"\s*:\s*"([^"]+)"[^}]*?"price"\s*:\s*([\d.]+)/);
+      if (m) {
+        const price = Number(/^[\d.]+$/.test(m[1]) ? m[1] : m[2]);
+        if (!Number.isFinite(price) || price <= 0) throw new Error(`unusable price ${m[0]}`);
+        return { code: key, url, price };
+      }
+      /* Most bundle pages carry no analytics price payload, unlike the single-exam
+         pages. They do print the price once in the body, so fall back to that, but
+         only when the whole page yields exactly ONE distinct figure. More than one
+         is ambiguous and an ambiguous guess on a price page is worse than a red
+         run, so that fails instead. */
+      const text = body.replace(/<(script|style)[^>]*>[\s\S]*?<\/\1>/g, ' ').replace(/<[^>]+>/g, ' ');
+      const found = [...new Set((text.match(/\$[\d,]{3,7}/g) || []).map(v => money(v)))]
+        .filter(v => Number.isFinite(v) && v > 0);
+      if (found.length === 1) return { code: key, url, price: found[0], via: 'body text' };
+      throw new Error(found.length ? `ambiguous body prices: ${found.join(', ')}` : 'no price found on the page');
+    } catch (err) {
+      if (attempt === 2) return { code: key, url, error: err.message };
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  }
+}
+
 /* The FinOps table is a second partner programme on a different platform, so
    it needs its own map and its own price regex. It used to sit in the README
    unverified next to a section boasting about verified pricing, which is
@@ -221,6 +275,23 @@ for (const row of rows) {
   }
 }
 
+/* Bundles, checked the same way. Their discounted column uses the same floor
+   arithmetic as the exam rows, so a typo there is caught too. */
+const bundleRows = parseBundles(text);
+const bundleResults = await Promise.all(bundleRows.map(r => liveBundlePrice(r.code)));
+for (const row of bundleRows) {
+  const live = bundleResults.find(r => r.code === row.code);
+  if (live.error) { problems.push(`${row.code}: could not verify (${live.error})`); continue; }
+  if (live.price !== row.list) {
+    problems.push(`${row.code}: README says $${row.list}, live page says $${live.price} — ${live.url}`);
+    continue;
+  }
+  const expectedB = Math.floor(row.list * (1 - DISCOUNT));
+  if (Math.abs(row.discounted - expectedB) > 1) {
+    problems.push(`${row.code}: discounted column says ~$${row.discounted}, 30% off $${row.list} is ~$${expectedB}`);
+  }
+}
+
 const finRows = parseFinopsTable(text);
 const finResults = await Promise.all(finRows.map(r => finopsPrice(r.name)));
 for (const row of finRows) {
@@ -254,7 +325,7 @@ const stamped = withSale
   .replace(/as of \*\*[A-Za-z]+ \d{1,2}, \d{4}\*\*/, `as of **${longDate}**`)
   .replace(/\(verified \d{4}-\d{2}-\d{2}\)/, `(verified ${today})`);
 
-console.log(`✓ ${rows.length}/${rows.length} Linux Foundation and ${finRows.length}/${finRows.length} FinOps prices matched the live pages.`);
+console.log(`✓ ${rows.length}/${rows.length} Linux Foundation exam, ${bundleRows.length}/${bundleRows.length} bundle and ${finRows.length}/${finRows.length} FinOps prices matched the live pages.`);
 if (stamped !== text) {
   fs.writeFileSync(README, stamped);
   console.log(`✓ Stamped README with ${today}.`);
