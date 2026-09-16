@@ -31,14 +31,17 @@
 >
 > [**Go to the sale →**](https://rushabhshah.dev/go/sale)
 >
-> What the exams cost with `SEPT26BTS35`:
+> What they cost with the sale on, read off the promo page:
 >
-> - CKA, CKAD, CKS or LFCS: ~~$445~~ **$289** ([rushabhshah.dev/go/cka](https://rushabhshah.dev/go/cka))
-> - KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163** ([rushabhshah.dev/go/kcna](https://rushabhshah.dev/go/kcna))
+> - CKA, CKAD, CKS or LFCS: ~~$445~~ **$289** with `SEPT26BTS35` ([rushabhshah.dev/go/cka](https://rushabhshah.dev/go/cka))
+> - KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163** with `SEPT26BTS35` ([rushabhshah.dev/go/kcna](https://rushabhshah.dev/go/kcna))
+> - Kubestronaut bundle (KCNA, KCSA, CKA, CKAD, CKS): ~~$1645~~ **$987** with `SEPT26BTS40` ([rushabhshah.dev/go/kubestronaut](https://rushabhshah.dev/go/kubestronaut))
+> - Golden Kubestronaut bundle (all 16 exams): ~~$4229~~ **$2538** with `SEPT26BTS40` ([rushabhshah.dev/go/golden-kubestronaut](https://rushabhshah.dev/go/golden-kubestronaut))
+> - CKA + CKAD + CKS exam bundle: ~~$1245~~ **$747** with `SEPT26BTS40` ([rushabhshah.dev/go/cka-ckad-cks](https://rushabhshah.dev/go/cka-ckad-cks))
 >
-> This one actually beats `RUSHABH30`: 35% against 30%, on every exam in the table below. The codes don't stack, so use the sale code until September 22 and `RUSHABH30` after that.
+> This one beats `RUSHABH30` on everything: 35% on a single exam, 40% on the bundles, against the code's 30%. They don't stack, so use the sale code until September 22 and `RUSHABH30` after that.
 
-Runs until 11:59 PM Eastern on September 22, which is 9:29 AM IST on the 23rd. New and individual purchases only, not renewals. Does not apply to THRIVE-ONE subscriptions or any FinOps certification.
+Runs until 23:59 UTC on September 22, which is 5:29 AM IST on the 23rd. New and individual purchases only, not renewals. Does not apply to THRIVE-ONE subscriptions, the Yocto LFD461-JP course, or any FinOps certification.
 <!-- SALE:END -->
 
 ## Get 30% off with this coupon code
@@ -179,7 +182,7 @@ Twelve months from purchase to schedule and take it.
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
 ### [Up to 40% OFF] Back to School Sale
-**Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289 and the associate exams to $163, cheaper than `RUSHABH30` on every exam. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+**Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289, the associate exams to $163, the Kubestronaut bundle to $987 and Golden Kubestronaut to $2538, cheaper than `RUSHABH30` across the catalog. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
 
 ### [40% + 20% OFF, bundles only] Switch & Save Sale (Expired)
 **Sep 9 to 11, 2026.** 40% off a certification and 20% off THRIVE-ONE Annual, only as a bundle, no code. $805 bundles went to $553, $610 to $423. Only cheaper than `RUSHABH30` if you wanted the subscription anyway.

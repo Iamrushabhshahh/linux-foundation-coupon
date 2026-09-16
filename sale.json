@@ -3,7 +3,7 @@
   "sale": {
     "name": "Back to School sale",
     "headline": "35% off certifications with `SEPT26BTS35`, or 40% off bundles and instructor-led training with `SEPT26BTS40`",
-    "end": "2026-09-23T03:59:00Z",
+    "end": "2026-09-22T23:59:00Z",
     "advertisedEnd": "September 22",
     "landing": "https://rushabhshah.dev/go/sale",
     "banner": "assets/linux-foundation-sep26-back-to-school-40-35-percent-off.webp",
@@ -19,19 +19,31 @@
       }
     ],
     "beatsEveryday": true,
-    "compare": "This one actually beats `RUSHABH30`: 35% against 30%, on every exam in the table below. The codes don't stack, so use the sale code until September 22 and `RUSHABH30` after that.",
+    "compare": "This one beats `RUSHABH30` on everything: 35% on a single exam, 40% on the bundles, against the code's 30%. They don't stack, so use the sale code until September 22 and `RUSHABH30` after that.",
     "bundles": [
       {
-        "label": "CKA, CKAD, CKS or LFCS: ~~$445~~ **$289**",
+        "label": "CKA, CKAD, CKS or LFCS: ~~$445~~ **$289** with `SEPT26BTS35`",
         "slug": "cka"
       },
       {
-        "label": "KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163**",
+        "label": "KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163** with `SEPT26BTS35`",
         "slug": "kcna"
+      },
+      {
+        "label": "Kubestronaut bundle (KCNA, KCSA, CKA, CKAD, CKS): ~~$1645~~ **$987** with `SEPT26BTS40`",
+        "slug": "kubestronaut"
+      },
+      {
+        "label": "Golden Kubestronaut bundle (all 16 exams): ~~$4229~~ **$2538** with `SEPT26BTS40`",
+        "slug": "golden-kubestronaut"
+      },
+      {
+        "label": "CKA + CKAD + CKS exam bundle: ~~$1245~~ **$747** with `SEPT26BTS40`",
+        "slug": "cka-ckad-cks"
       }
     ],
-    "bundleIntro": "What the exams cost with `SEPT26BTS35`:",
-    "dateCaveat": "Runs until 11:59 PM Eastern on September 22, which is 9:29 AM IST on the 23rd. New and individual purchases only, not renewals. Does not apply to THRIVE-ONE subscriptions or any FinOps certification.",
+    "bundleIntro": "What they cost with the sale on, read off the promo page:",
+    "dateCaveat": "Runs until 23:59 UTC on September 22, which is 5:29 AM IST on the 23rd. New and individual purchases only, not renewals. Does not apply to THRIVE-ONE subscriptions, the Yocto LFD461-JP course, or any FinOps certification.",
     "terms": ""
   }
 }
