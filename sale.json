@@ -1,27 +1,37 @@
 {
   "_comment": "The live sale, as data. scripts/verify-prices.mjs renders this into README.md between the SALE markers and REMOVES it once `end` passes. Set `sale` to null when nothing is running. `codes` may be empty; `beatsEveryday: false` swaps the stock stacking line for `compare`. Write these strings the way you'd tell a friend: say the deal, the price, who should skip it, then stop. No narrating the announcement, no explaining the automation.",
   "sale": {
-    "name": "Switch & Save sale",
-    "headline": "40% off any certification when you bundle it with THRIVE-ONE Annual, and the subscription itself is 20% off in the bundle",
-    "end": "2026-09-11T23:59:00Z",
-    "advertisedEnd": "September 11",
+    "name": "Back to School sale",
+    "headline": "35% off certifications with `SEPT26BTS35`, or 40% off bundles and instructor-led training with `SEPT26BTS40`",
+    "end": "2026-09-23T03:59:00Z",
+    "advertisedEnd": "September 22",
     "landing": "https://rushabhshah.dev/go/sale",
-    "banner": "assets/linux-foundation-sep26-switch-save-40-20-percent-off.webp",
-    "bannerAlt": "Linux Foundation Switch & Save sale, September 9 to 11: 40% off certifications, 20% off THRIVE-ONE Annual, bundled",
-    "codes": [],
-    "noCodeNote": "There's no code for this one. Pick a bundle on the sale page and the price is already cut.",
-    "beatsEveryday": false,
-    "compare": "Honest take: good deal if you actually want THRIVE-ONE (every course and every SkillCred exam for a year). If you just want the exam, skip it. CKA with `RUSHABH30` is $311. The CKA bundle is $553. You can't use the code on top of the sale.",
-    "bundles": [
+    "banner": "assets/linux-foundation-sep26-back-to-school-40-35-percent-off.webp",
+    "bannerAlt": "Linux Foundation Back to School sale, ends September 22: up to 40% off training and certifications",
+    "codes": [
       {
-        "label": "CKA, CKAD, CKS, LFCS or CNPE + THRIVE-ONE Annual: ~~$805~~ **$553**"
+        "code": "SEPT26BTS35",
+        "what": "e-learning courses and certifications"
       },
       {
-        "label": "KCNA, KCSA, PCA, OTCA and the other associate exams + THRIVE-ONE Annual: ~~$610~~ **$423**"
+        "code": "SEPT26BTS40",
+        "what": "bundles and instructor-led training"
       }
     ],
-    "dateCaveat": "Runs until 23:59 UTC on September 11, which is 5:29 AM IST on the 12th. New purchases only, not renewals.",
-    "terms": "",
-    "bundleIntro": "What the bundles cost:"
+    "beatsEveryday": true,
+    "compare": "This one actually beats `RUSHABH30`: 35% against 30%, on every exam in the table below. The codes don't stack, so use the sale code until September 22 and `RUSHABH30` after that.",
+    "bundles": [
+      {
+        "label": "CKA, CKAD, CKS or LFCS: ~~$445~~ **$289**",
+        "slug": "cka"
+      },
+      {
+        "label": "KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$163**",
+        "slug": "kcna"
+      }
+    ],
+    "bundleIntro": "What the exams cost with `SEPT26BTS35`:",
+    "dateCaveat": "Runs until 11:59 PM Eastern on September 22, which is 9:29 AM IST on the 23rd. New and individual purchases only, not renewals. Does not apply to THRIVE-ONE subscriptions or any FinOps certification.",
+    "terms": ""
   }
 }

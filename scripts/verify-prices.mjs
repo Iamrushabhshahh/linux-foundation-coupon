@@ -159,10 +159,11 @@ function renderSale(text) {
         ? `> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:`
         : `> What the bundles cost:`)
     : '';
+  /* `compare` is honoured whenever it is set, not only when the sale loses to
+     the everyday code. A sale that *beats* RUSHABH30 deserves to say so in its
+     own words; the stock line below hedges, which undersells it. */
   const compare = live
-    ? (sale.beatsEveryday === false && sale.compare
-        ? sale.compare
-        : `Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today.`)
+    ? (sale.compare || `Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today.`)
     : '';
   const block = !live ? `
 *No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
