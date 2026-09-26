@@ -54,6 +54,7 @@ const SLUGS = {
   OTCA: 'opentelemetry-certified-associate-otca',
   KCA: 'kyverno-certified-associate-kca',
   CNPA: 'certified-cloud-native-platform-engineering-associate-cnpa',
+  PTCA: 'pytorch-certified-associate-ptca',
 };
 
 const money = (s) => Number(String(s).replace(/[$,]/g, ''));
