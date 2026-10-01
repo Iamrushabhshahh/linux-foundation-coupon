@@ -1,4 +1,4 @@
-# Linux Foundation Coupon Code (Updated September 2026): 30% Off CKA, CKAD, CKS and Every CNCF Certification
+# Linux Foundation Coupon Code (Updated October 2026): 30% Off CKA, CKAD, CKS and Every CNCF Certification
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Iamrushabhshahh/linux-foundation-coupon?style=flat-square&color=f97316)](https://github.com/Iamrushabhshahh/linux-foundation-coupon/network/members)
@@ -21,7 +21,7 @@ RUSHABH30
 
 **30% off every Linux Foundation and CNCF certification, exam bundle and course.** No minimum spend. No expiry date. It works on the Kubernetes exams (CKA, CKAD, CKS), the associate exams (KCNA, KCSA, PCA and the rest), LFCS, and the Kubestronaut bundles.
 
-In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **September 30, 2026**.
+In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **October 1, 2026**.
 
 ## How to apply the coupon at checkout
 
@@ -31,7 +31,7 @@ In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $
 
 Buying does not mean you have to sit the exam soon. Every certification purchase gives you **12 months to schedule and take it**, so buying at a discount now and booking a date once you have studied is normal.
 
-## Linux Foundation and CNCF exam prices (verified 2026-09-30)
+## Linux Foundation and CNCF exam prices (verified 2026-10-01)
 
 | Certification | Level | List price | You pay with `RUSHABH30` | You save | Buy |
 | --- | --- | --- | --- | --- | --- |
