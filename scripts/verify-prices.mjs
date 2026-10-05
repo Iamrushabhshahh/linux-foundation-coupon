@@ -201,6 +201,9 @@ function renderSale(text) {
   let sale = null;
   try { sale = JSON.parse(fs.readFileSync(SALE_FILE, 'utf8')).sale; } catch { /* no sale file, treat as none */ }
   const live = sale && new Date() < new Date(sale.end);
+  // Before `start` the block still renders, as advance notice, but without the
+  // "Live now" badge: the codes don't work yet and the badge would say they do.
+  const started = live && (!sale.start || new Date() >= new Date(sale.start));
   // A sale may have no coupon code at all (the September 2026 Switch & Save
   // cut was built into the landing-page bundle prices). Empty `codes` renders
   // the noCodeNote instead of code boxes. `bundles` entries link to `url` if
@@ -223,7 +226,7 @@ function renderSale(text) {
   const block = !live ? `
 *No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
 ` : `
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> ${sale.name}, ends ${sale.advertisedEnd}
+## ${started ? `<img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> ${sale.name}, ends ${sale.advertisedEnd}` : `${sale.name}, starts ${sale.startLabel || sale.start}`}
 
 [![${sale.bannerAlt}](${sale.banner})](${sale.landing})
 
@@ -242,7 +245,7 @@ ${bundles}
 
 ${sale.dateCaveat}
 `;
-  const status = live ? '**Currently live**, see the top of this page.' : 'Expired.';
+  const status = started ? '**Currently live**, see the top of this page.' : live ? '**Starting soon**, see the top of this page.' : 'Expired.';
   return text
     .replace(/(<!-- SALE:START -->)[\s\S]*?(<!-- SALE:END -->)/, (_m, o, c) => `${o}\n<!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit\n     between these markers. To run a new sale, edit sale.json. -->\n${block}${c}`)
     .replace(/(<!-- SALE-STATUS:START -->)[\s\S]*?(<!-- SALE-STATUS:END -->)/, (_m, o, c) => `${o}${status}${c}`);

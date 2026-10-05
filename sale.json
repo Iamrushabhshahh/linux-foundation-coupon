@@ -3,6 +3,8 @@
   "sale": {
     "name": "October Prime sale",
     "headline": "40% off every certification with `OCTPRIME26CC`, October 6 and 7 only",
+    "start": "2026-10-06T04:00:00Z",
+    "startLabel": "October 6, 9:30 AM IST",
     "end": "2026-10-07T23:59:00Z",
     "advertisedEnd": "October 7",
     "landing": "https://rushabhshah.dev/go/sale-github",

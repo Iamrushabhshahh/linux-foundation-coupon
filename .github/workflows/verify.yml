@@ -10,6 +10,11 @@ name: Verify prices and stamp date
 on:
   schedule:
     - cron: "10 18 * * *" # daily at 23:40 IST (18:10 UTC)
+    # One-offs for the October Prime sale: flip the block to live soon after
+    # the 04:00 UTC open, and retire it soon after the 23:59 UTC close instead
+    # of the next evening. Safe to delete after Oct 8.
+    - cron: "5 4 6 10 *"
+    - cron: "5 0 8 10 *"
   workflow_dispatch:
 
 permissions:

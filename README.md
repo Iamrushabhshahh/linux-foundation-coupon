@@ -10,7 +10,7 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> October Prime sale, ends October 7
+## October Prime sale, starts October 6, 9:30 AM IST
 
 [![Linux Foundation October Prime sale, October 6 to 7: up to 75% off training and certifications](assets/linux-foundation-oct26-prime-up-to-75-percent-off.webp)](https://rushabhshah.dev/go/sale-github)
 
@@ -194,7 +194,7 @@ Twelve months from purchase to schedule and take it.
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
 ### [Up to 75% OFF] October Prime Sale
-**Oct 6 to 7, 2026.** 40% off certifications and e-learning courses with `OCTPRIME26CC`, 50% off bundles with `OCTPRIME26B`, 75% off the three Super Bundles with `OCTPRIME26SB`, 20% off THRIVE-ONE Annual with `OCTPRIME26TO`. CKA $267, the associate exams $150, cheaper than `RUSHABH30` on every exam. Excluded the Yocto LFD461-JP course and FinOps training. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+**Oct 6 to 7, 2026.** 40% off certifications and e-learning courses with `OCTPRIME26CC`, 50% off bundles with `OCTPRIME26B`, 75% off the three Super Bundles with `OCTPRIME26SB`, 20% off THRIVE-ONE Annual with `OCTPRIME26TO`. CKA $267, the associate exams $150, cheaper than `RUSHABH30` on every exam. Excluded the Yocto LFD461-JP course and FinOps training. <!-- SALE-STATUS:START -->**Starting soon**, see the top of this page.<!-- SALE-STATUS:END -->
 
 ### [Up to 40% OFF] Back to School Sale (Expired)
 **Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289, the associate exams to $163, the Kubestronaut bundle to $987 and Golden Kubestronaut to $2538, cheaper than `RUSHABH30` across the catalog. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
