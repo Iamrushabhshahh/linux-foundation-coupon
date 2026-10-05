@@ -10,7 +10,47 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-*No Linux Foundation sale is running today, so `RUSHABH30` at 30% is the best discount you can get right now.*
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> October Prime sale, ends October 7
+
+[![Linux Foundation October Prime sale, October 6 to 7: up to 75% off training and certifications](assets/linux-foundation-oct26-prime-up-to-75-percent-off.webp)](https://rushabhshah.dev/go/sale)
+
+> [!IMPORTANT]
+> **40% off every certification with `OCTPRIME26CC`, October 6 and 7 only.** Ends **October 7**.
+>
+> 40% off certifications and e-learning courses:
+>
+> ```
+> OCTPRIME26CC
+> ```
+>
+> 50% off bundles:
+>
+> ```
+> OCTPRIME26B
+> ```
+>
+> 75% off the three Super Bundles (Cybersecurity, Cloud Native Developer, Cloud Native):
+>
+> ```
+> OCTPRIME26SB
+> ```
+>
+> 20% off a new THRIVE-ONE Annual subscription:
+>
+> ```
+> OCTPRIME26TO
+> ```
+>
+> [**Go to the sale →**](https://rushabhshah.dev/go/sale)
+>
+> What the exams cost with the sale on:
+>
+> - CKA, CKAD, CKS or LFCS: ~~$445~~ **$267** with `OCTPRIME26CC` ([rushabhshah.dev/go/cka](https://rushabhshah.dev/go/cka))
+> - KCNA, KCSA, PCA, OTCA, LFCA and the other associate exams: ~~$250~~ **$150** with `OCTPRIME26CC` ([rushabhshah.dev/go/kcna](https://rushabhshah.dev/go/kcna))
+>
+> This beats `RUSHABH30` on every exam: CKA is $267 here against $311 with my code. They don't stack, so use the sale code for these two days and `RUSHABH30` after.
+
+Starts October 6 at 12:00 AM ET (9:30 AM IST) and ends 23:59 UTC on October 7, which is 5:29 AM IST on the 8th. The codes won't work before it opens. New and individual purchases only. Does not apply to the Yocto LFD461-JP course or any FinOps course or certification.
 <!-- SALE:END -->
 
 ## Get 30% off with this coupon code
@@ -21,7 +61,7 @@ RUSHABH30
 
 **30% off every Linux Foundation and CNCF certification, exam bundle and course.** No minimum spend. No expiry date. It works on the Kubernetes exams (CKA, CKAD, CKS), the associate exams (KCNA, KCSA, PCA and the rest), LFCS, and the Kubestronaut bundles.
 
-In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **October 4, 2026**.
+In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $250 to about $175. The Golden Kubestronaut bundle drops by roughly $1,269. Every price is listed below and checked against the official catalog daily, last confirmed as of **October 5, 2026**.
 
 ## How to apply the coupon at checkout
 
@@ -31,7 +71,7 @@ In money: CKA drops from $445 to about $311, so you keep $134. KCNA drops from $
 
 Buying does not mean you have to sit the exam soon. Every certification purchase gives you **12 months to schedule and take it**, so buying at a discount now and booking a date once you have studied is normal.
 
-## Linux Foundation and CNCF exam prices (verified 2026-10-04)
+## Linux Foundation and CNCF exam prices (verified 2026-10-05)
 
 | Certification | Level | List price | You pay with `RUSHABH30` | You save | Buy |
 | --- | --- | --- | --- | --- | --- |
@@ -153,8 +193,11 @@ Twelve months from purchase to schedule and take it.
 
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
-### [Up to 40% OFF] Back to School Sale
-**Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289, the associate exams to $163, the Kubestronaut bundle to $987 and Golden Kubestronaut to $2538, cheaper than `RUSHABH30` across the catalog. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training. <!-- SALE-STATUS:START -->Expired.<!-- SALE-STATUS:END -->
+### [Up to 75% OFF] October Prime Sale
+**Oct 6 to 7, 2026.** 40% off certifications and e-learning courses with `OCTPRIME26CC`, 50% off bundles with `OCTPRIME26B`, 75% off the three Super Bundles with `OCTPRIME26SB`, 20% off THRIVE-ONE Annual with `OCTPRIME26TO`. CKA $267, the associate exams $150, cheaper than `RUSHABH30` on every exam. Excluded the Yocto LFD461-JP course and FinOps training. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+
+### [Up to 40% OFF] Back to School Sale (Expired)
+**Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289, the associate exams to $163, the Kubestronaut bundle to $987 and Golden Kubestronaut to $2538, cheaper than `RUSHABH30` across the catalog. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
 
 ### [40% + 20% OFF, bundles only] Switch & Save Sale (Expired)
 **Sep 9 to 11, 2026.** 40% off a certification and 20% off THRIVE-ONE Annual, only as a bundle, no code. $805 bundles went to $553, $610 to $423. Only cheaper than `RUSHABH30` if you wanted the subscription anyway.
