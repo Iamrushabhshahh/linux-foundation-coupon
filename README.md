@@ -12,36 +12,36 @@
 
 ## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> October Prime sale, ends October 7
 
-[![Linux Foundation October Prime sale, October 6 to 7: up to 75% off training and certifications](assets/linux-foundation-oct26-prime-up-to-75-percent-off.webp)](https://rushabhshah.dev/go/sale)
+[![Linux Foundation October Prime sale, October 6 to 7: up to 75% off training and certifications](assets/linux-foundation-oct26-prime-up-to-75-percent-off.webp)](https://rushabhshah.dev/go/sale-github)
 
 > [!IMPORTANT]
 > **40% off every certification with `OCTPRIME26CC`, October 6 and 7 only.** Ends **October 7**.
 >
-> 40% off certifications and e-learning courses:
+> [40% off certifications and e-learning courses](https://rushabhshah.dev/go/sale-certs):
 >
 > ```
 > OCTPRIME26CC
 > ```
 >
-> 50% off bundles:
+> [50% off bundles](https://rushabhshah.dev/go/sale-bundles):
 >
 > ```
 > OCTPRIME26B
 > ```
 >
-> 75% off the three Super Bundles (Cybersecurity, Cloud Native Developer, Cloud Native):
+> [75% off the three Super Bundles (Cybersecurity, Cloud Native Developer, Cloud Native)](https://rushabhshah.dev/go/sale-superbundles):
 >
 > ```
 > OCTPRIME26SB
 > ```
 >
-> 20% off a new THRIVE-ONE Annual subscription:
+> [20% off a new THRIVE-ONE Annual subscription](https://rushabhshah.dev/go/sale-thrive):
 >
 > ```
 > OCTPRIME26TO
 > ```
 >
-> [**Go to the sale →**](https://rushabhshah.dev/go/sale)
+> [**Go to the sale →**](https://rushabhshah.dev/go/sale-github)
 >
 > What the exams cost with the sale on:
 >

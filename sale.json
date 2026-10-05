@@ -5,25 +5,25 @@
     "headline": "40% off every certification with `OCTPRIME26CC`, October 6 and 7 only",
     "end": "2026-10-07T23:59:00Z",
     "advertisedEnd": "October 7",
-    "landing": "https://rushabhshah.dev/go/sale",
+    "landing": "https://rushabhshah.dev/go/sale-github",
     "banner": "assets/linux-foundation-oct26-prime-up-to-75-percent-off.webp",
     "bannerAlt": "Linux Foundation October Prime sale, October 6 to 7: up to 75% off training and certifications",
     "codes": [
       {
         "code": "OCTPRIME26CC",
-        "what": "40% off certifications and e-learning courses"
+        "what": "[40% off certifications and e-learning courses](https://rushabhshah.dev/go/sale-certs)"
       },
       {
         "code": "OCTPRIME26B",
-        "what": "50% off bundles"
+        "what": "[50% off bundles](https://rushabhshah.dev/go/sale-bundles)"
       },
       {
         "code": "OCTPRIME26SB",
-        "what": "75% off the three Super Bundles (Cybersecurity, Cloud Native Developer, Cloud Native)"
+        "what": "[75% off the three Super Bundles (Cybersecurity, Cloud Native Developer, Cloud Native)](https://rushabhshah.dev/go/sale-superbundles)"
       },
       {
         "code": "OCTPRIME26TO",
-        "what": "20% off a new THRIVE-ONE Annual subscription"
+        "what": "[20% off a new THRIVE-ONE Annual subscription](https://rushabhshah.dev/go/sale-thrive)"
       }
     ],
     "beatsEveryday": true,
