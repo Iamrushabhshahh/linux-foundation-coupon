@@ -10,7 +10,42 @@
 <!-- Rendered from sale.json by scripts/verify-prices.mjs. Do not hand-edit
      between these markers. To run a new sale, edit sale.json. -->
 
-*No Linux Foundation sale is running today, so `RUSHABH30` at 30% is the best discount you can get right now.*
+## <img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> October cybersecurity sale, ends October 23
+
+[![Linux Foundation October cybersecurity sale, until October 23: up to 40% off, CKS shown](assets/linux-foundation-oct26-cyber-40-35-percent-off.webp)](https://rushabhshah.dev/go/sale-github)
+
+> [!IMPORTANT]
+> **40% off CKS and KCSA with `OCT26CYBERRUSHABH`, 35% off every other exam with `OCT26NONCYBERRUSHABH`.** Ends **October 23**.
+>
+> [35% off CKA, CKAD, KCNA and every other certification and course](https://rushabhshah.dev/go/sale-certs):
+>
+> ```
+> OCT26NONCYBERRUSHABH
+> ```
+>
+> [40% off CKS, KCSA, the KCSA + CKS bundle and the security courses](https://rushabhshah.dev/go/sale-cyber):
+>
+> ```
+> OCT26CYBERRUSHABH
+> ```
+>
+> [30% off a new THRIVE-ONE Annual subscription](https://rushabhshah.dev/go/sale-thrive):
+>
+> ```
+> OCT26THRIVERUSHABH
+> ```
+>
+> [**Go to the sale →**](https://rushabhshah.dev/go/sale-github)
+>
+> What the security exams cost with the sale on:
+>
+> - CKS: ~~$445~~ **$267** with `OCT26CYBERRUSHABH` ([rushabhshah.dev/go/cks](https://rushabhshah.dev/go/cks))
+> - KCSA: ~~$250~~ **$150** with `OCT26CYBERRUSHABH` ([rushabhshah.dev/go/kcsa](https://rushabhshah.dev/go/kcsa))
+> - KCSA + CKS bundle: ~~$645~~ **$387** with `OCT26CYBERRUSHABH` ([rushabhshah.dev/go/sale-cyber](https://rushabhshah.dev/go/sale-cyber))
+>
+> This beats `RUSHABH30`: CKS is $267 here against $311 with my code, and everything else is 35% off against my 30%. They don't stack, so use the sale codes until October 23 and `RUSHABH30` after.
+
+Ends 23:59 UTC on October 23, which is 5:29 AM IST on the 24th. New and individual purchases only. Does not apply to the Yocto LFD461-JP course or any FinOps course or certification.
 <!-- SALE:END -->
 
 ## Get 30% off with this coupon code
@@ -153,8 +188,11 @@ Twelve months from purchase to schedule and take it.
 
 Sales come round a few times a year and expire fast. I keep the old ones listed here so you can see the pattern, and check whether a code someone is still advertising elsewhere is actually dead.
 
-### [Up to 75% OFF] October Prime Sale
-**Oct 6 to 7, 2026.** 40% off certifications and e-learning courses with `OCTPRIME26CC`, 50% off bundles with `OCTPRIME26B`, 75% off the three Super Bundles with `OCTPRIME26SB`, 20% off THRIVE-ONE Annual with `OCTPRIME26TO`. CKA $267, the associate exams $150, cheaper than `RUSHABH30` on every exam. Excluded the Yocto LFD461-JP course and FinOps training. <!-- SALE-STATUS:START -->Expired.<!-- SALE-STATUS:END -->
+### [Up to 40% OFF] October Cybersecurity Sale
+**Oct 16 to 23, 2026.** 40% off CKS, KCSA, the KCSA + CKS bundle and the security courses with `OCT26CYBERRUSHABH`, 35% off every other certification and course with `OCT26NONCYBERRUSHABH`, 30% off THRIVE-ONE Annual with `OCT26THRIVERUSHABH`. CKS $267, KCSA $150, the KCSA + CKS bundle $387. Excluded the Yocto LFD461-JP course and FinOps training. <!-- SALE-STATUS:START -->**Currently live**, see the top of this page.<!-- SALE-STATUS:END -->
+
+### [Up to 75% OFF] October Prime Sale (Expired)
+**Oct 6 to 7, 2026.** 40% off certifications and e-learning courses with `OCTPRIME26CC`, 50% off bundles with `OCTPRIME26B`, 75% off the three Super Bundles with `OCTPRIME26SB`, 20% off THRIVE-ONE Annual with `OCTPRIME26TO`. CKA $267, the associate exams $150, cheaper than `RUSHABH30` on every exam. Excluded the Yocto LFD461-JP course and FinOps training.
 
 ### [Up to 40% OFF] Back to School Sale (Expired)
 **Sep 15 to 22, 2026.** 35% off e-learning courses and certifications with `SEPT26BTS35`, 40% off bundles and instructor-led training with `SEPT26BTS40`. CKA went to $289, the associate exams to $163, the Kubestronaut bundle to $987 and Golden Kubestronaut to $2538, cheaper than `RUSHABH30` across the catalog. Excluded THRIVE-ONE subscriptions, the Yocto LFD461-JP course, and FinOps training.
