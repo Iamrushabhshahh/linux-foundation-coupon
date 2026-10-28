@@ -211,37 +211,40 @@ function renderSale(text) {
   const codes = live && sale.codes.length
     ? sale.codes.map(c => `> ${c.what.charAt(0).toUpperCase() + c.what.slice(1)}:\n>\n> \`\`\`\n> ${c.code}\n> \`\`\``).join('\n>\n')
     : live ? `> ${sale.noCodeNote || 'No code needed: the discount is already applied on the landing page.'}` : '';
-  const bundles = live ? (sale.bundles || []).map(b => `> - ${b.label}${b.url || b.slug ? ` ([${b.url ? b.url.replace(/^https?:\/\//, '') : `rushabhshah.dev/go/${b.slug}`}](${b.url || `https://rushabhshah.dev/go/${b.slug}`}))` : ''}`).join('\n') : '';
-  const bundleIntro = live
+  // A sale with no price grid (most flash codes: one code, no bundle tiers)
+  // has nothing to put here, so the whole intro+list block is left out rather
+  // than rendering an intro sentence over an empty list.
+  const hasBundles = live && (sale.bundles || []).length > 0;
+  const bundles = hasBundles ? sale.bundles.map(b => `> - ${b.label}${b.url || b.slug ? ` ([${b.url ? b.url.replace(/^https?:\/\//, '') : `rushabhshah.dev/go/${b.slug}`}](${b.url || `https://rushabhshah.dev/go/${b.slug}`}))` : ''}`).join('\n') : '';
+  const bundleIntro = hasBundles
     ? (sale.bundleIntro ? `> ${sale.bundleIntro}` : sale.codes.length
         ? `> \`${sale.codes[sale.codes.length - 1].code}\` is the one for the multi-exam bundles, which are already discounted before the code comes off:`
         : `> What the bundles cost:`)
     : '';
+  const bundlesSection = hasBundles ? `${bundleIntro}\n>\n${bundles}\n>\n` : '';
   /* `compare` is honoured whenever it is set, not only when the sale loses to
      the everyday code. A sale that *beats* RUSHABH30 deserves to say so in its
      own words; the stock line below hedges, which undersells it. */
   const compare = live
     ? (sale.compare || `Sale codes don't stack with \`RUSHABH30\`, so use whichever saves you more today.`)
     : '';
+  // No graphic for a last-minute flash sale is normal (there isn't always
+  // time to get one from the affiliate announcement), so the banner row is
+  // left out entirely rather than linking a broken image.
+  const bannerRow = live && sale.banner ? `[![${sale.bannerAlt}](${sale.banner})](${sale.landing})\n\n` : '';
   const block = !live ? `
 *No Linux Foundation sale is running today, so \`RUSHABH30\` at 30% is the best discount you can get right now.*
 ` : `
 ## ${started ? `<img src="assets/live-badge.svg" alt="Live now" height="20" align="absmiddle"> ${sale.name}, ends ${sale.advertisedEnd}` : `${sale.name}, starts ${sale.startLabel || sale.start}`}
 
-[![${sale.bannerAlt}](${sale.banner})](${sale.landing})
-
-> [!IMPORTANT]
+${bannerRow}> [!IMPORTANT]
 > **${sale.headline}.** Ends **${sale.advertisedEnd}**.
 >
 ${codes}
 >
 > [**Go to the sale →**](${sale.landing})
 >
-${bundleIntro}
->
-${bundles}
->
-> ${[compare, sale.terms].filter(Boolean).join(' ')}
+${bundlesSection}> ${[compare, sale.terms].filter(Boolean).join(' ')}
 
 ${sale.dateCaveat}
 `;

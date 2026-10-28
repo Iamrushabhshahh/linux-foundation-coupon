@@ -1,47 +1,23 @@
 {
   "_comment": "The live sale, as data. scripts/verify-prices.mjs renders this into README.md between the SALE markers and REMOVES it once `end` passes. Set `sale` to null when nothing is running. `codes` may be empty; `beatsEveryday: false` swaps the stock stacking line for `compare`. Write these strings the way you'd tell a friend: say the deal, the price, who should skip it, then stop. No narrating the announcement, no explaining the automation.",
   "sale": {
-    "name": "October cybersecurity sale",
-    "headline": "40% off CKS and KCSA with `OCT26CYBERRUSHABH`, 35% off every other exam with `OCT26NONCYBERRUSHABH`",
-    "start": "2026-10-16T00:00:00Z",
-    "startLabel": "October 16",
-    "end": "2026-10-23T23:59:00Z",
-    "advertisedEnd": "October 23",
+    "name": "October flash sale",
+    "headline": "35% off most certifications, instructor-led training and courses by technology with `TREATS35RUSHABH`",
+    "start": "2026-10-28T00:00:00Z",
+    "startLabel": "October 28",
+    "end": "2026-10-29T23:59:00Z",
+    "advertisedEnd": "October 29",
     "landing": "https://rushabhshah.dev/go/sale-github",
-    "banner": "assets/linux-foundation-oct26-cyber-40-35-percent-off.webp",
-    "bannerAlt": "Linux Foundation October cybersecurity sale, until October 23: up to 40% off, CKS shown",
     "codes": [
       {
-        "code": "OCT26NONCYBERRUSHABH",
-        "what": "[35% off CKA, CKAD, KCNA and every other certification and course](https://rushabhshah.dev/go/sale-certs)"
-      },
-      {
-        "code": "OCT26CYBERRUSHABH",
-        "what": "[40% off CKS, KCSA, the KCSA + CKS bundle and the security courses](https://rushabhshah.dev/go/sale-cyber)"
-      },
-      {
-        "code": "OCT26THRIVERUSHABH",
-        "what": "[30% off a new THRIVE-ONE Annual subscription](https://rushabhshah.dev/go/sale-thrive)"
+        "code": "TREATS35RUSHABH",
+        "what": "[35% off most certifications, instructor-led training and courses by technology](https://rushabhshah.dev/go/sale-flash)"
       }
     ],
     "beatsEveryday": true,
-    "compare": "This beats `RUSHABH30`: CKS is $267 here against $311 with my code, and everything else is 35% off against my 30%. They don't stack, so use the sale codes until October 23 and `RUSHABH30` after.",
-    "bundles": [
-      {
-        "label": "CKS: ~~$445~~ **$267** with `OCT26CYBERRUSHABH`",
-        "slug": "cks"
-      },
-      {
-        "label": "KCSA: ~~$250~~ **$150** with `OCT26CYBERRUSHABH`",
-        "slug": "kcsa"
-      },
-      {
-        "label": "KCSA + CKS bundle: ~~$645~~ **$387** with `OCT26CYBERRUSHABH`",
-        "slug": "sale-cyber"
-      }
-    ],
-    "bundleIntro": "What the security exams cost with the sale on:",
-    "dateCaveat": "Ends 23:59 UTC on October 23, which is 5:29 AM IST on the 24th. New and individual purchases only. Does not apply to the Yocto LFD461-JP course or any FinOps course or certification.",
+    "compare": "This beats `RUSHABH30`: 35% off against my 30%. They don't stack, so use the sale code until October 29 and `RUSHABH30` after.",
+    "bundles": [],
+    "dateCaveat": "Ends 23:59 UTC on October 29, which is 5:29 AM IST on the 30th. New and individual purchases only. Does not apply to the Yocto LFD461-JP course or any FinOps course or certification.",
     "terms": ""
   }
 }
